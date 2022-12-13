@@ -25,8 +25,6 @@ book:
     logo-alt: "MA{VR}X Lab"
     title: false
 
-
-  
   chapters:
     - index.qmd
     - intro.qmd
