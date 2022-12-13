@@ -10,7 +10,7 @@ format: gfm
 
 All rendering and whatnot is done by Quarto. Just render this and it will create README.md. The book will render all types when built.
 
--->
+--> 
 ```
 This is the Quarto content for the MA{VR}X Lab style guide.
 
