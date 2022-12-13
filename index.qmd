@@ -36,7 +36,7 @@ This manual should be considered a comprehensive living document aimed at presen
 
 ## Session Information {.unnumbered}
 
-As this book is written using the `bookdown` package, here is the R session information from when the book was last compiled on `r Sys.Date()`:
+Here is the R session information from when the book was last compiled on `r Sys.Date()`:
 
 ```{r}
 #| label: sessioninfo
