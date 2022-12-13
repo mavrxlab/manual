@@ -1,0 +1,20 @@
+gantt
+  dateFormat  YYYY-MM-DD
+  title       Full year project
+  section Administrative
+    Semester start                      :adm1, 2022-08-22, 1d
+	  Lab onboarding                      :onboarding, after adm1, 3d
+    Meet with lab director              :labdir, after onboarding, 1d
+	  Initial reading                     :reading, after labdir, 2w
+    Complete IRB                        :irb, after reading, 2w
+    Create OSF project, pre-register    :osf, after irb, 4d
+  section Data
+    Data collection                     :data1, after osf, 4w
+  	Data analysis and publishing        :data2, after data1, 4w
+    Lab internal brownbag               :brownbag, after data2 , 1d
+  section Writing/Production
+    Introduction and methods            :methods, after data2, 2w
+    Full rough draft                    :fullrough, after methods, 6w
+    Practice talk                       :ptalk, after fullrough, 1d
+	  Final written draft                 :finaldraft, after ptalk, 4w
+	  Presentation/Showcase               :after finaldraft, 1d
