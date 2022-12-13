@@ -1,9 +1,54 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+**THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.**
 
 ```{r}
-1 + 1
+#| label: logo
+#| fig-align: center
+#| echo: false
+#| fig-link: https://mavrxlab.org
+knitr::include_graphics('images/square-solid.jpg', dpi = NA)
 ```
+
+This manual was created using **Quarto**. It's magical.
+
+The contents of this manual are heavily influenced by John Paul Minda and Emily Nielsen's *Lab Manual* [-@Minda_Nielsen_2018]. The full collection of influences and inspiration can be found [in the manual's GitHub repo](https://github.com/mavrxlab/lab-manual).
+
+## Using this book {.unnumbered}
+
+This manual is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+```{r}
+#| label: cc-license
+#| fig-align: center
+#| echo: false
+#| fig-link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+knitr::include_graphics('images/by-nc-sa.png', dpi = NA)
+```
+
+It is available as a PDF, eBook, or via the web. We encourage you to use [the **OSF** project to cite this particular document](https://osf.io/upa25/) [@straightMAVRXLabManual2021].
+
+## Structure {.unnumbered}
+
+This manual should be considered a comprehensive living document aimed at presenting a unified understanding of how the lab works and what it should become.
+
+<!-- Chapter listing goes here once they're set. -->
+
+## Session Information {.unnumbered}
+
+As this book is written using the `bookdown` package, here is the R session information from when the book was last compiled on `r Sys.Date()`:
+
+```{r}
+#| label: sessioninfo
+sessionInfo()
+```
+
+## Acknowledgements {.unnumbered}
+
+Many thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.
+
+<p style="text-align: right;">
+
+Dr. Ryan Straight<br />\newline Associate Professor of Practice in Applied Computing and Cyber Operations<br />\newline Director, MA{VR}X Lab<br />\newline Tucson, AZ
+
+</p>
