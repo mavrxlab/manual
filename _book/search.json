@@ -7,27 +7,6 @@
     "text": "Preface\nTHIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.\nThis manual was created using Quarto. It’s magical.\nThe contents of this manual are heavily influenced by John Paul Minda and Emily Nielsen’s Lab Manual (2018). The full collection of influences and inspiration can be found in the manual’s GitHub repo."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
     "objectID": "index.html#using-this-book",
     "href": "index.html#using-this-book",
     "title": "MA{VR}X Lab Manual",
@@ -46,14 +25,7 @@
     "href": "index.html#session-information",
     "title": "MA{VR}X Lab Manual",
     "section": "Session Information",
-    "text": "Session Information\nAs this book is written using the bookdown package, here is the R session information from when the book was last compiled on 2022-12-13:\n\nsessionInfo()\n\nR version 4.2.2 (2022-10-31 ucrt)\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\nRunning under: Windows 10 x64 (build 22621)\n\nMatrix products: default\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n [1] digest_0.6.30     jsonlite_1.8.3    magrittr_2.0.3    evaluate_0.18    \n [5] rlang_1.0.6       stringi_1.7.8     cli_3.4.1         rstudioapi_0.14  \n [9] rmarkdown_2.18    tools_4.2.2       stringr_1.4.1     htmlwidgets_1.5.4\n[13] xfun_0.34         yaml_2.3.6        fastmap_1.1.0     compiler_4.2.2   \n[17] htmltools_0.5.3   knitr_1.41"
-  },
-  {
-    "objectID": "index.html#acknowledgements-acknowledgements",
-    "href": "index.html#acknowledgements-acknowledgements",
-    "title": "MA{VR}X Lab Manual",
-    "section": "Acknowledgements {## Acknowledgements",
-    "text": "Acknowledgements {## Acknowledgements\nMany thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.\n\nDr. Ryan StraightAssistant Professor of Practice in Applied Computing and Cyber OperationsDirector, MA{VR}X LabTucson, AZ\n\n}\nMany thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.\n\nDr. Ryan StraightAssistant Professor of Practice in Applied Computing and Cyber OperationsDirector, MA{VR}X LabTucson, AZ\n\n\n\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF. osf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
+    "text": "Session Information\nHere is the R session information from when the book was last compiled on 2022-12-13:\n\n\nR version 4.2.2 (2022-10-31 ucrt)\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\nRunning under: Windows 10 x64 (build 22621)\n\nMatrix products: default\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n [1] digest_0.6.30     jsonlite_1.8.3    magrittr_2.0.3    evaluate_0.18    \n [5] rlang_1.0.6       stringi_1.7.8     cli_3.4.1         rstudioapi_0.14  \n [9] rmarkdown_2.18    tools_4.2.2       stringr_1.4.1     htmlwidgets_1.5.4\n[13] xfun_0.34         yaml_2.3.6        fastmap_1.1.0     compiler_4.2.2   \n[17] htmltools_0.5.3   knitr_1.41"
   },
   {
     "objectID": "index.html#acknowledgements",
@@ -61,5 +33,26 @@
     "title": "MA{VR}X Lab Manual",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nMany thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.\n\nDr. Ryan StraightAssociate Professor of Practice in Applied Computing and Cyber OperationsDirector, MA{VR}X LabTucson, AZ\n\n\n\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF. osf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF.\nosf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
   }
 ]

@@ -42,6 +42,12 @@ editor_options:
   markdown:
     wrap: 72
     canonical: true
+    
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
 
 format:
   html:
