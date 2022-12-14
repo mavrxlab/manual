@@ -5,7 +5,6 @@
 ```{r}
 #| label: logo
 #| fig-align: center
-#| echo: false
 #| fig-link: https://mavrxlab.org
 knitr::include_graphics('images/square-solid.jpg', dpi = NA)
 ```
@@ -16,17 +15,15 @@ The contents of this manual are heavily influenced by John Paul Minda and Emily 
 
 ## Using this book {.unnumbered}
 
-This manual is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
 ```{r}
 #| label: cc-license
-#| fig-align: center
-#| echo: false
+#| column: margin
 #| fig-link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+#| fig-cap: "CC BY-NC-SA 4.0"
 knitr::include_graphics('images/by-nc-sa.png', dpi = NA)
 ```
 
-It is available as a PDF, eBook, or via the web. We encourage you to use [the **OSF** project to cite this particular document](https://osf.io/upa25/) [@straightMAVRXLabManual2021].
+This manual is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). It is available as a PDF or via the web. We encourage you to use [the **OSF** project to cite this particular document](https://osf.io/upa25/) [@straightMAVRXLabManual2021].
 
 ## Structure {.unnumbered}
 
@@ -45,10 +42,10 @@ sessionInfo()
 
 ## Acknowledgements {.unnumbered}
 
-Many thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.
+> Many thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.
 
 <p style="text-align: right;">
 
-Dr. Ryan Straight<br />\newline Associate Professor of Practice in Applied Computing and Cyber Operations<br />\newline Director, MA{VR}X Lab<br />\newline Tucson, AZ
+Dr. Ryan Straight<br />\newline Associate Professor of Practice in Applied Computing and Cyber Operations<br />\newline Director, MA{VR}X Lab<br />\newline
 
 </p>

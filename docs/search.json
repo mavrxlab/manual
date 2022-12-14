@@ -11,7 +11,7 @@
     "href": "index.html#using-this-book",
     "title": "MA{VR}X Lab Manual",
     "section": "Using this book",
-    "text": "Using this book\nThis manual is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.\n\n\n\n\n\n\n\n\n\nIt is available as a PDF, eBook, or via the web. We encourage you to use the OSF project to cite this particular document (Straight 2021)."
+    "text": "Using this book\n\n\n\n\n\n\nCC BY-NC-SA 4.0\n\n\n\nThis manual is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. It is available as a PDF or via the web. We encourage you to use the OSF project to cite this particular document (Straight 2021)."
   },
   {
     "objectID": "index.html#structure",
@@ -25,14 +25,14 @@
     "href": "index.html#session-information",
     "title": "MA{VR}X Lab Manual",
     "section": "Session Information",
-    "text": "Session Information\nHere is the R session information from when the book was last compiled on 2022-12-13:\n\n\nR version 4.2.2 (2022-10-31 ucrt)\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\nRunning under: Windows 10 x64 (build 22621)\n\nMatrix products: default\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n [1] digest_0.6.30     jsonlite_1.8.3    magrittr_2.0.3    evaluate_0.18    \n [5] rlang_1.0.6       stringi_1.7.8     cli_3.4.1         rstudioapi_0.14  \n [9] rmarkdown_2.18    tools_4.2.2       stringr_1.4.1     htmlwidgets_1.5.4\n[13] xfun_0.34         yaml_2.3.6        fastmap_1.1.0     compiler_4.2.2   \n[17] htmltools_0.5.3   knitr_1.41"
+    "text": "Session Information\nHere is the R session information from when the book was last compiled on 2022-12-13:\n\n\nR version 4.2.2 (2022-10-31 ucrt)\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\nRunning under: Windows 10 x64 (build 22621)\n\nMatrix products: default\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n [1] digest_0.6.30     lifecycle_1.0.3   jsonlite_1.8.4    magrittr_2.0.3   \n [5] evaluate_0.19     rlang_1.0.6       stringi_1.7.8     cli_3.4.1        \n [9] rstudioapi_0.14   vctrs_0.5.1       rmarkdown_2.18    tools_4.2.2      \n[13] stringr_1.5.0     glue_1.6.2        htmlwidgets_1.5.4 yaml_2.3.6       \n[17] xfun_0.34         fastmap_1.1.0     compiler_4.2.2    htmltools_0.5.3  \n[21] knitr_1.41"
   },
   {
     "objectID": "index.html#acknowledgements",
     "href": "index.html#acknowledgements",
     "title": "MA{VR}X Lab Manual",
     "section": "Acknowledgements",
-    "text": "Acknowledgements\nMany thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.\n\nDr. Ryan StraightAssociate Professor of Practice in Applied Computing and Cyber OperationsDirector, MA{VR}X LabTucson, AZ\n\n\n\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF. osf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
+    "text": "Acknowledgements\n\nMany thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.\n\n\nDr. Ryan StraightAssociate Professor of Practice in Applied Computing and Cyber OperationsDirector, MA{VR}X Lab\n\n\n\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF. osf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
   },
   {
     "objectID": "intro.html",
@@ -54,5 +54,131 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF.\nosf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
+  },
+  {
+    "objectID": "about.html#identity",
+    "href": "about.html#identity",
+    "title": "About",
+    "section": "Identity",
+    "text": "Identity\nThe lab’s identity is determined by three basic concepts: its mission, vision, and values, but also of our dedication to praxis. Praxis as we refer to it can be defined as:\n\nthe process by which a theory, lesson, or skill is enacted, embodied, or realized [and] the act of engaging, applying, exercising, realizing, or practicing ideas1."
+  },
+  {
+    "objectID": "about.html#mission",
+    "href": "about.html#mission",
+    "title": "About",
+    "section": "Mission",
+    "text": "Mission\nThe primary mission of the MA{VR}X Lab is to develop human-focused ideas through technology, transparency, and care, with a focus on extending our reality using technology and evidence-based methodology."
+  },
+  {
+    "objectID": "about.html#vision",
+    "href": "about.html#vision",
+    "title": "About",
+    "section": "Vision",
+    "text": "Vision\nManifested in the nexus of technology research, evidence-based pedagogy, and boundary-pushing ideas, the MA{VR}X Lab will act as a space for chances to be taken, brilliance to be realized, and people to come together."
+  },
+  {
+    "objectID": "about.html#values",
+    "href": "about.html#values",
+    "title": "About",
+    "section": "Values",
+    "text": "Values\nThe MA{VR}X Lab’s vision is one of transparency, openness, and optimism. At all possible times, we believe knowledge should be not just presented publicly but developed there, as well. We are humans. We make mistakes and we want to make them in public so others may learn. We make those on our way to create great things and help build a better future for everyone."
+  },
+  {
+    "objectID": "about.html#code-of-conduct",
+    "href": "about.html#code-of-conduct",
+    "title": "About",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nIn addition to the University of Arizona Student Code of Conduct, the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About the MA{VR}X Lab\nThe Mixed Augmented ViRtual eXtended (Reality) Laboratory (referred to as the MAVRX Lab, pronounced mavericks, and stylized with curly brackets around {VR}) is space in which we drive innovation through alternative reality modalities and research. It came about in early 2021 as an entity, though its physical location had existed for some time. MA{VR}X Lab is intended as a collaborate effort, meant to be interdisciplinary and reside in a place of praxis and innovation.\nIt is our goal to apply this to bleeding-edge innovation in alternate reality spaces."
+  },
+  {
+    "objectID": "roles.html#everyone",
+    "href": "roles.html#everyone",
+    "title": "1  Roles and Expectations",
+    "section": "1.1 Everyone",
+    "text": "1.1 Everyone\nEach person in the lab should adhere to a shared set of expectations.\n\n1.1.1 Big Picture\nGenerally, everyone should:\n\nPush the envelope of applied scientific discovery and personal excellence.\nDo work we are proud of individually and as a group.\nDouble-check our work, and be at least a little obsessive.\nBe supportive–we’re all in this together.\nBe independent when possible, ask for help when necessary.\nCommunicate honestly, even when it’s difficult.\nShare your knowledge. Mentoring takes many forms, but frequently involves looking out for those more junior.\nWork towards proficiency in research production and knowledge distribution (not to mention R!).\nBe patient, including with your PI. He will forget things you just talked about, and repeat some stories over and over. Organization and comprehensive note-taking is a great solution to his absent-mindedness.\nAdvocate for our own needs, including personal and career goals.\nRespect each others’ strengths, weaknesses, differences, and beliefs.\nIf you move something, put it back.\nCharge all devices.\nKeep everything awesome.\n\n\n\n1.1.2 Smaller Picture\nMA{VR}X Lab physical spaces are not that big (ironic, considering the infinite spaces and opportunities in extended reality), so please be thoughtful of others you’re with and who will come later:\n\nDo not come to the lab if you are sick. Period. If you are sick, DM your faculty advisor or the director to let me know you won’t be coming in. If appropriate, update your lab calendar to reflect the change.\nBe considerate with the thermostat. Everyone has different preferences, so we all need to learn to compromise. In B158, the air handler is also very loud, which may come into play if we are recording something.\nDo not leave food, drinks, or crumbs out in the lab. Please put food trash in another trash can (not in the lab!), especially late in the day or on Friday (so that food doesn’t stay in the lab over the weekend).\nLock the door if there is no one in the lab, even if you will only be gone for “a minute”.\nAvoid wearing strong perfumes/colognes/et cetera in the lab (for the sake of your coworkers, lab visitors, and our participants).\nKeep the lab neat—especially in the back of B158 in the VR boundary. Items left unattended may be discarded, reclaimed, or recycled.\nWear a mask until further notice."
+  },
+  {
+    "objectID": "roles.html#primary-investigator-director",
+    "href": "roles.html#primary-investigator-director",
+    "title": "1  Roles and Expectations",
+    "section": "1.2 Primary Investigator (Director)",
+    "text": "1.2 Primary Investigator (Director)\nThe PI (here referred to as the Director) of the lab is responsible for the day-to-day administration of the physical, digital, and logistical spaces. While responsibilities may be delegated–and often are–the director is ultimately responsible for ensuring the lab is functional and productive.\nAdditionally, the director often serves in an advisory capacity for student research. This ranges from initial ideation to research project design to means of publication. That said, the director is not a “boss” of the lab; instead, they provide guidance at all levels, from the lab’s research trajectory and agenda as a whole to advising on a project-by-project basis.\nIn addition to the list above, the director will3:\n\nHave a vision of where the lab is going in the near and far terms.\nCare about your happiness, well-being, and academic success.\nObtain–with the assistance of others, typically–funding to support the lab.\nSupport you in your career development, including writing letters of recommendation, introducing you to others in the field, assisting in travel, and promoting your work as often as possible.\nSupport your personal growth by giving you flexibility and encouraging you to do things beyond just researching.\nOccasionally bring goodies.\nMake time to meet with you regularly, read through your lab-related manuscripts and research designs, and just generally chat.\nFuss over your text and graphic design."
+  },
+  {
+    "objectID": "roles.html#faculty-research-fellows",
+    "href": "roles.html#faculty-research-fellows",
+    "title": "1  Roles and Expectations",
+    "section": "1.3 Faculty Research Fellows",
+    "text": "1.3 Faculty Research Fellows\nWhile the lab does not have any dedicated4 staff beyond the director, we do have a number of faculty, specifically, who engage with the lab regularly. They are expected to act as mentors and advisors, with an aim to be more-or-less director-like."
+  },
+  {
+    "objectID": "roles.html#graduate-research-fellows",
+    "href": "roles.html#graduate-research-fellows",
+    "title": "1  Roles and Expectations",
+    "section": "1.4 Graduate Research Fellows",
+    "text": "1.4 Graduate Research Fellows\nWe also do not, at time of publishing, have any graduate students working in the lab. That said, should we, they will be expected to:\n\nKnow the literature related to their topic like the back of their hand.\nSeek out and apply for fellowships and awards (including travel awards, et cetera).\nRealize there are times for pulling all-nighters, and times for taking the headset off, leaving early, and spending time with loved ones."
+  },
+  {
+    "objectID": "roles.html#undergraduate-research-fellows",
+    "href": "roles.html#undergraduate-research-fellows",
+    "title": "1  Roles and Expectations",
+    "section": "1.5 Undergraduate Research Fellows",
+    "text": "1.5 Undergraduate Research Fellows\nUsually works directly under a faculty member or graduate student. The faculty need not be a member of the lab, but the director or a Faculty Research Fellow should be in the loop at all times. Regardless of how undergraduate students are engaging with the lab, they should:\n\nBe working on a particular project that has been discussed with the director and their faculty advisor.\nAsk around to see if they can help with anything.\nSpend time improving various lab-related skills (learning R or C#, studying Unity, et cetera).\nSpend time writing a blog post, updating or adding sections to the lab manual, and the like.\n\nUndergraduates will generally engage with the lab in one of the following capacities:\n\nVolunteering\nFor-credit (independent study5 or capstone6)\nLab Assistants (paid work)\nHonors7\n\n\n1.5.1 Volunteering\nVolunteering in the lab is generally formulated in a resources-for-time transaction. Students will be provided access to the lab’s resources (computers, space, software, guidance, collaboration, et cetera) in return for helping the lab make progress toward its goal of research and knowledge production.\nThat said, student volunteers are still expected to have a regular and consistent presence in the lab, adhering to the expectations of “Everyone” above. Volunteering in the lab does not mean a student can come and go as they please or ghost on projects because they got busy! Volunteering is still a serious commitment.\n\n\n1.5.2 For-Credit\nWhile each semester, each student, and each team are unique, undergraduate research fellows engaging in a for-credit independent study or capstone should expect to end the semester in which they are receiving credit with a variety of deliverables: for example, an annotated bibliography of ~10 articles on the topic they’ve been studying, a ~10 minute presentation to the department, a conference paper, and so on. This is the minimum requirement that is for the lab; depending on how you’ve enrolled, you may have additional requirements.\n\n\n1.5.3 Lab Assistants\nSome students will be paid to “work in the lab,” which could be anything from assisting in faculty research to lab maintenance to doing market research. While undergraduate research fellows may also be lab assistants, an overlap is not necessarily required or expected. These are generally funded by particular grants and thus will have specific project-related tasks and expectations.\n\n\n1.5.4 Honors\nHonors Contracts and theses are relatively rare, so simply contact the director for more information on this."
+  },
+  {
+    "objectID": "onboarding.html#baseline-reading-list",
+    "href": "onboarding.html#baseline-reading-list",
+    "title": "2  Onboarding",
+    "section": "2.1 Baseline Reading List",
+    "text": "2.1 Baseline Reading List\nWhile the lab covers a wide, wide range of research topics, we have established a reading list to provide everyone with the same basic foundation of knowledge. The exact topics listed below may not apply to the precise topic you’re interested in but you should still endeavor to read it all.1 This list is ever-growing and if you wish to add to it, simply create a pull request.\nThese are meta-reads, basically, that focus on “doing” research and sharing the resultant knowledge.\n\nBourne, P. E. (2007). Ten Simple Rules for Making Good Oral Presentations.PLoS Comput Biol, 3(4), e77. https://doi.org/10.1371/journal.pcbi.0030077\nBourne, P. E., & Chalupa, L. M. (2006). Ten Simple Rules for Getting Grants. PLoS Comput Biol, 2(2), e12. https://doi.org/10.1371/journal.pcbi.0020012\nEdmund Hart, Pauline Barmby, David LeBauer, François Michonneau, Sarah Mount, Patrick Mulrooney, … Jeffrey W Hollister. (2016). Ten simple rules for digital data storage. https://doi.org/10.7287/peerj.preprints.1448v2\nErren, T. C., & Bourne, P. E. (2007). Ten Simple Rules for a Good Poster Presentation. PLoS Comput Biol, 3(5), e102. https://doi.org/10.1371/journal.pcbi.0030102\nKording, K. P., & Mensh, B. (2016). Ten simple rules for structuring papers. BioRxiv, 088278. https://doi.org/10.1101/088278\nRougier, N. P., Droettboom, M., & Bourne, P. E. (2014). Ten Simple Rules for Better Figures. PLOS Computational Biology, 10(9), e1003833. https://doi.org/10.1371/journal.pcbi.1003833\nVicens, Q., & Bourne, P. E. (2007). Ten Simple Rules for a Successful Collaboration. PLoS Comput Biol, 3(3), e44. https://doi.org/10.1371/journal.pcbi.0030044\nWeinberger, C. J., Evans, J. A., & Allesina, S. (2015). Ten Simple (Empirical) Rules for Writing Science. PLoS Comput Biol, 11(4), e1004205. https://doi.org/10.1371/journal.pcbi.1004205"
+  },
+  {
+    "objectID": "onboarding.html#lab-project-timelines",
+    "href": "onboarding.html#lab-project-timelines",
+    "title": "2  Onboarding",
+    "section": "2.2 Lab Project Timelines",
+    "text": "2.2 Lab Project Timelines\nWe often get students from outside the lab wishing to run projects that involve lab resources. This is wonderful and we encourage this as much as possible. Generally speaking, these are the project timelines that students should envision. The year-long project (see Figure @ref(fig:fullyear)) is intended for lab assistants and graduate students and requires much closer and more frequent interaction with lab leaders than a standard semester-long project.\n\n\n\n\n\n\n\n7.5-week project timeline\n\n\n\n\n\n\n15-week project timeline\n\n\n\n\n\n\nFull year project timeline."
+  },
+  {
+    "objectID": "spaces.html#sierra-vista",
+    "href": "spaces.html#sierra-vista",
+    "title": "3  Labs and Physical Spaces",
+    "section": "3.1 Sierra Vista",
+    "text": "3.1 Sierra Vista\nThe MA{VR}X Lab’s main location is room B158 on the University of Arizona Sierra Vista campus1. It is part of the College of Applied Science and Technology (CAST).\n\n\n\nSierra Vista campus\n\n\n\n1140 N. Colombo Avenue\nSierra Vista, AZ 85635\n(520) 458-8278\n\n\n3.1.1 Hours\nGenerally speaking, the director is in the lab on Mondays. Given that the lab focuses on extended reality, much of the work can be done virtually unless the hardware in the room is specifically needed. Other hours throughout the week are determined by those employed by, volunteering, or researching in the lab."
+  },
+  {
+    "objectID": "spaces.html#yuma",
+    "href": "spaces.html#yuma",
+    "title": "3  Labs and Physical Spaces",
+    "section": "3.2 Yuma",
+    "text": "3.2 Yuma\n(Info on the Yuma location coming soon!)\n\n\n\nYuma campus\n\n\n\n7875 E. 24th St. Ste. #7\nYuma, AZ 85365\n(928) 782-1914"
+  },
+  {
+    "objectID": "spaces.html#other-locations",
+    "href": "spaces.html#other-locations",
+    "title": "3  Labs and Physical Spaces",
+    "section": "3.3 Other Locations",
+    "text": "3.3 Other Locations\nPlans to expand into other locations like Chandler are in the works."
+  },
+  {
+    "objectID": "meetings.html#types-and-frequency",
+    "href": "meetings.html#types-and-frequency",
+    "title": "5  Meetings",
+    "section": "5.1 Types and frequency",
+    "text": "5.1 Types and frequency\n\nResearchers actively working: bi-weekly (begins second Tuesday of semester)\n\nBriefly update the lab on whatever they are working on.\nThis is also an opportunity for practice talks, elevator pitches for new project ideas, so on.\n\nAssistants/workers: bi-weekly (begins first Tuesday of semester)\n\nCheck-ins.\n\nFaculty Research Fellows: as needed\n\nThis may be monthly, generally, but depends on the projects at the time.\n\n\nIf you fall into one of these categories and have not received an invite to the meetings, please contact the director."
+  },
+  {
+    "objectID": "meetings.html#notesminutes",
+    "href": "meetings.html#notesminutes",
+    "title": "5  Meetings",
+    "section": "5.2 Notes/Minutes",
+    "text": "5.2 Notes/Minutes\nNotes and minutes from meetings1 will–again, when appropriately public-facing–will be kept in the lab’s OSF ecosystem.\nTemplate for meeting notes in markdown. This is also found in the meeting-notes repo, along with instructions on how to add/update/correct meeting notes:\n# YYYY-MM-DD HH:MM\n\n- Lead:\n- Note Taker: \n\n## Attendees\n\nAdd yourself to the list if you attend and check the box!\n\n### Core Team\n\n- [ ] Person 1 [P1]\n- [ ] Person 2 [P2]\n\n### Guests\n\n- [] Your name here (INITIALS)\n\n## Weekly review\n\n- (General notes on weekly review here.)\n\n## Topics\n\n<!-- If you would like to add a topic to the agenda please add\nyour name to the appropriate list above and add a suggestion to\nthe PR using the following format: -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n## Any Questions?\n\nQuestions, comments or concerns? Submit a comment or PR for this\nset of notes after they're published."
   }
 ]

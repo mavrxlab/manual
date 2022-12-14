@@ -1,0 +1,76 @@
+# Onboarding {#sec-onboarding}
+
+Use this section as a step-by-step to get up to speed when you're new to the lab. This list is *not* suggested, but *required*!
+
+1.  Complete our Onboarding Survey and provide your profile info to to the director.
+2.  If you are paid by the university in any way, be sure to clarify your time reporting requirements with HR.
+3.  Join the lab's Microsoft Team and post an introduction to the `#social` channel.
+4.  Install the various software and sign up for the platforms we use in the lab:
+    1.  Git and GitHub (or GitKraken; follow the Git chapter instructions to get your free education upgrade. Request to join the lab's GitHub organization: https://github.com/mavrxlab/
+    2.  Create accounts for OSF, Protocols.io, and ClusterMarket
+    3.  Install R, RStudio, and Quarto on your machine.
+    4.  Install Zotero.
+    5.  Sign up for your [Adobe Creative Cloud](https://adobe.arizona.edu/signup/adobe-creative-cloud) access.
+5.  [CITI Program training](https://www.citiprogram.org/?pageID=668)
+    1.  Select `Log In Through My Organization`, search for `University of Arizona`, sign in with your NetID.
+    2.  Find the `Group 2: Social & Behavioral Research Investigators` course and complete it.
+    3.  Send a copy of your Completion Record to the director and copy your advisor.
+6.  Check with the director about any other specific requirements.
+
+## Baseline Reading List
+
+While the lab covers a wide, wide range of research topics, we have established a reading list to provide everyone with the same basic foundation of knowledge. The exact topics listed below may not apply to the precise topic you're interested in but you should still endeavor to read it all.[^onboarding-1] This list is ever-growing and if you wish to add to it, simply create a pull request.
+
+These are meta-reads, basically, that focus on "doing" research and sharing the resultant knowledge.
+
+-   Bourne, P. E. (2007). Ten Simple Rules for Making Good Oral Presentations.*PLoS Comput Biol, 3*(4), e77. https://doi.org/10.1371/journal.pcbi.0030077
+-   Bourne, P. E., & Chalupa, L. M. (2006). Ten Simple Rules for Getting Grants. *PLoS Comput Biol, 2*(2), e12. https://doi.org/10.1371/journal.pcbi.0020012
+-   Edmund Hart, Pauline Barmby, David LeBauer, François Michonneau, Sarah Mount, Patrick Mulrooney, ... Jeffrey W Hollister. (2016). Ten simple rules for digital data storage. https://doi.org/10.7287/peerj.preprints.1448v2
+-   Erren, T. C., & Bourne, P. E. (2007). Ten Simple Rules for a Good Poster Presentation. *PLoS Comput Biol, 3*(5), e102. https://doi.org/10.1371/journal.pcbi.0030102
+-   Kording, K. P., & Mensh, B. (2016). Ten simple rules for structuring papers. BioRxiv, 088278. https://doi.org/10.1101/088278
+-   Rougier, N. P., Droettboom, M., & Bourne, P. E. (2014). Ten Simple Rules for Better Figures. *PLOS Computational Biology, 10*(9), e1003833. https://doi.org/10.1371/journal.pcbi.1003833
+-   Vicens, Q., & Bourne, P. E. (2007). Ten Simple Rules for a Successful Collaboration. *PLoS Comput Biol, 3*(3), e44. https://doi.org/10.1371/journal.pcbi.0030044
+-   Weinberger, C. J., Evans, J. A., & Allesina, S. (2015). Ten Simple (Empirical) Rules for Writing Science. *PLoS Comput Biol, 11*(4), e1004205. https://doi.org/10.1371/journal.pcbi.1004205
+
+## Lab Project Timelines
+
+We often get students from outside the lab wishing to run projects that involve lab resources. This is *wonderful* and we encourage this as much as possible. Generally speaking, these are the project timelines that students should envision. The year-long project (see Figure \@ref(fig:fullyear)) is intended for lab assistants and graduate students and requires much closer and more frequent interaction with lab leaders than a standard semester-long project.
+
+```{r}
+# From https://github.com/rich-iannone/DiagrammeR/issues/457#issuecomment-1109995343
+# to get the mermaid graphs working
+#| eval: false
+#| label: mermaidupdate
+#| include: false
+dist_loc <- list.files(
+  find.package("DiagrammeR"),
+  recursive = TRUE,
+  pattern = "mermaid.*js",
+  full.names = TRUE)
+
+js_cdn_url <- "https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.0.1/mermaid.min.js"
+download.file(js_cdn_url, dist_loc)
+```
+
+```{r}
+#| label: 7wk
+#| margin: page
+#| fig-cap: "7.5-week project timeline"
+DiagrammeR::DiagrammeR("figures/gantt-7.mmd")
+```
+
+```{r}
+#| label: 15wk
+#| margin: page
+#| fig-cap: "15-week project timeline"
+DiagrammeR::DiagrammeR("figures/gantt-15.mmd")
+```
+
+```{r}
+#| label: fullyear
+#| margin: page
+#| fig-cap: "Full year project timeline."
+DiagrammeR::DiagrammeR("figures/gantt-year.mmd")
+```
+
+[^onboarding-1]: The "Ten Simple Rules" article list is gleaned from [gzahn/Lab_Manual: Lab manual for Zahn Lab at UVU](https://github.com/gzahn/Lab_Manual#09-reading-list).

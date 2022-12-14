@@ -11,22 +11,23 @@ book:
   twitter-card: true
   page-footer:
     left: |
-      <a href="http://mavrxlab.org/">MA{VR}X Lab</a>
+      <a href="https://mavrxlab.org/">MA{VR}X Lab</a>
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   site-url: https://mavrxlab.github.io/manual/
   repo-url: https://github.com/mavrxlab/manual
   repo-actions: [edit,issue]
+  downloads: [pdf, epub]
 
-  navbar:
-    background: light
-    logo: images/square-solid.jpg
-    logo-alt: "MA{VR}X Lab"
-    title: false
 
   chapters:
     - index.qmd
-    - intro.qmd
+    - about.qmd
+    - roles.qmd
+    - onboarding.qmd
+    - spaces.qmd
+    - comms.qmd
+    - meetings.qmd
     - summary.qmd
     - references.qmd
 
@@ -48,6 +49,15 @@ execute:
 
 format:
   html:
-    theme: cosmo
-
-
+    theme: zephyr
+  epub: default
+  pdf:
+    documentclass: scrreprt
+    cap-location: margin
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex

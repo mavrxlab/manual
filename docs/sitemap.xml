@@ -2,18 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mavrxlab.github.io/manual/index.html</loc>
-    <lastmod>2022-12-14T03:10:02.386Z</lastmod>
+    <lastmod>2022-12-14T04:24:46.191Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/intro.html</loc>
-    <lastmod>2022-12-14T03:10:02.389Z</lastmod>
+    <lastmod>2022-12-14T03:46:43.531Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/summary.html</loc>
-    <lastmod>2022-12-14T03:10:02.392Z</lastmod>
+    <lastmod>2022-12-14T03:46:43.536Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/references.html</loc>
-    <lastmod>2022-12-14T03:10:02.394Z</lastmod>
+    <lastmod>2022-12-14T03:46:43.537Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/MA{VR}X-Lab-Manual.epub</loc>
+    <lastmod>2022-12-14T03:46:35.190Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/MA{VR}X-Lab-Manual.pdf</loc>
+    <lastmod>2022-12-14T03:46:43.138Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/about.html</loc>
+    <lastmod>2022-12-14T04:15:27.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/roles.html</loc>
+    <lastmod>2022-12-14T04:16:46.527Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/onboarding.html</loc>
+    <lastmod>2022-12-14T04:16:46.530Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/spaces.html</loc>
+    <lastmod>2022-12-14T04:27:17.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/meetings.html</loc>
+    <lastmod>2022-12-14T04:27:19.721Z</lastmod>
   </url>
 </urlset>

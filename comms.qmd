@@ -1,0 +1,19 @@
+# Communications {#sec-comms}
+
+Ways we communicate and collaborate in the lab.
+
+## Email {#sec-email}
+
+The lab has its own email address: `MAVRX-Lab@arizona.edu` used for external communication. The director monitors this.
+
+## Teams {#sec-teams}
+
+For virtually all lab-related chatting, announcements, and so on, we have a lab Microsoft Team. This is incredibly convenient, as our university accounts are natively connected in this way.
+
+## Social Media {#sec-social}
+
+The lab's social media presence is generally restricted to Mastodon and YouTube. Team members are welcome to share relevant content from the lab's account. The director can help you set this up. Content ideas for YouTube should be discussed at length with the director, as this also requires getting other administrative bodies involved.
+
+## Webpage {#sec-webpage}
+
+We maintain a static website for the lab at https://mavrxlab.org. This is where we share news items, project updates, upcoming talks, publication notifications, and so on. Specifically, Quarto is used for this as it allows for native inclusion of data analyses and plain-text content creation. This book is also created using Quarto.

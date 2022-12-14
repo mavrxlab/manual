@@ -1,0 +1,74 @@
+# Meetings {#sec-meetings}
+
+We have meetings. We hold them via Zoom. We may hold them in other ways or locations, but that's the norm.
+
+::: callout-important
+We will be experimenting with another method of keeping notes from meetings.
+:::
+
+## Types and frequency
+
+-   Researchers actively working: **bi-weekly** (begins second Tuesday of semester)
+    -   Briefly update the lab on whatever they are working on.
+    -   This is also an opportunity for practice talks, elevator pitches for new project ideas, so on.
+-   Assistants/workers: **bi-weekly** (begins first Tuesday of semester)
+    -   Check-ins.
+-   Faculty Research Fellows: **as needed**
+    -   This may be monthly, generally, but depends on the projects at the time.
+
+If you fall into one of these categories and have not received an invite to the meetings, please contact the director.
+
+## Notes/Minutes
+
+Notes and minutes from meetings[^meetings-1] will--again, when appropriately public-facing--will be kept in the lab's OSF ecosystem.
+
+Template for meeting notes in markdown. This is also found in the [meeting-notes](https://github.com/mavrxlab/meeting-notes) repo, along with instructions on how to add/update/correct meeting notes:
+
+``` markdown
+# YYYY-MM-DD HH:MM
+
+- Lead:
+- Note Taker: 
+
+## Attendees
+
+Add yourself to the list if you attend and check the box!
+
+### Core Team
+
+- [ ] Person 1 [P1]
+- [ ] Person 2 [P2]
+
+### Guests
+
+- [] Your name here (INITIALS)
+
+## Weekly review
+
+- (General notes on weekly review here.)
+
+## Topics
+
+<!-- If you would like to add a topic to the agenda please add
+your name to the appropriate list above and add a suggestion to
+the PR using the following format: -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+## Any Questions?
+
+Questions, comments or concerns? Submit a comment or PR for this
+set of notes after they're published.
+```
+
+[^meetings-1]: Meeting minutes template based on the [core-notes/template.md at master · emberjs/core-notes](https://github.com/emberjs/core-notes/blob/master/learning-team/template.md)
