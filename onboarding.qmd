@@ -55,21 +55,18 @@ download.file(js_cdn_url, dist_loc)
 ```{r}
 #| label: 7wk
 #| margin: page
-#| fig-cap: "7.5-week project timeline"
 DiagrammeR::DiagrammeR("figures/gantt-7.mmd")
 ```
 
 ```{r}
 #| label: 15wk
 #| margin: page
-#| fig-cap: "15-week project timeline"
 DiagrammeR::DiagrammeR("figures/gantt-15.mmd")
 ```
 
 ```{r}
 #| label: fullyear
 #| margin: page
-#| fig-cap: "Full year project timeline."
 DiagrammeR::DiagrammeR("figures/gantt-year.mmd")
 ```
 

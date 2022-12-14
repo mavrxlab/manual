@@ -50,6 +50,7 @@ execute:
 format:
   html:
     theme: zephyr
+    number-depth: 0
   epub: default
   pdf:
     documentclass: scrreprt

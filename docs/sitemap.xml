@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mavrxlab.github.io/manual/index.html</loc>
-    <lastmod>2022-12-14T04:24:46.191Z</lastmod>
+    <lastmod>2022-12-14T16:13:18.551Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/intro.html</loc>
@@ -30,18 +30,22 @@
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/roles.html</loc>
-    <lastmod>2022-12-14T04:16:46.527Z</lastmod>
+    <lastmod>2022-12-14T16:13:18.552Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/onboarding.html</loc>
-    <lastmod>2022-12-14T04:16:46.530Z</lastmod>
+    <lastmod>2022-12-14T16:44:35.201Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/spaces.html</loc>
-    <lastmod>2022-12-14T04:27:17.482Z</lastmod>
+    <lastmod>2022-12-14T16:13:26.772Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/meetings.html</loc>
-    <lastmod>2022-12-14T04:27:19.721Z</lastmod>
+    <lastmod>2022-12-14T16:13:31.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/comms.html</loc>
+    <lastmod>2022-12-14T16:13:18.554Z</lastmod>
   </url>
 </urlset>
