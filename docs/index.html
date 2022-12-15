@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ryan Straight">
-<meta name="dcterms.date" content="2022-12-14">
+<meta name="dcterms.date" content="2022-12-15">
 <meta name="description" content="This is the lab manual for the Mixed Augmented ViRtual eXtended Reality Lab in the College of Applied Science and Technology at the University of Arizona.">
 
 <title>MA{VR}X Lab Manual</title>
@@ -173,7 +173,17 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  <a href="./practice-protocols.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Practices and Protocols</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dissemination.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Dissemination of Lab Products</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Summary</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -181,6 +191,26 @@ div.csl-indent {
   <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Appendices</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project-step-by-step.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Step-by-Step Project Lifecycle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./faq.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">FAQ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -227,7 +257,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 14, 2022</p>
+      <p class="date">December 15, 2022</p>
     </div>
   </div>
   
@@ -239,7 +269,6 @@ div.csl-indent {
 
 <section id="preface" class="level1 unnumbered page-columns page-full">
 <h1 class="unnumbered">Preface</h1>
-<p><strong>THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.</strong></p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -251,6 +280,19 @@ div.csl-indent {
 </div>
 <p>This manual was created using <strong>Quarto</strong>. It’s magical.</p>
 <p>The contents of this manual are heavily influenced by John Paul Minda and Emily Nielsen’s <em>Lab Manual</em> <span class="citation" data-cites="Minda_Nielsen_2018">(<a href="references.html#ref-Minda_Nielsen_2018" role="doc-biblioref">2018</a>)</span>. The full collection of influences and inspiration can be found <a href="https://github.com/mavrxlab/lab-manual">in the manual’s GitHub repo</a>.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.</p>
+</div>
+</div>
 <section id="using-this-book" class="level2 unnumbered page-columns page-full">
 <h2 class="unnumbered anchored" data-anchor-id="using-this-book">Using this book</h2>
 <div class="cell page-columns page-full">
@@ -272,12 +314,12 @@ div.csl-indent {
 </section>
 <section id="session-information" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="session-information">Session Information</h2>
-<p>Here is the R session information from when the book was last compiled on 2022-12-13:</p>
+<p>Here is the R session information from when the book was last compiled on 2022-12-15:</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>R version 4.2.2 (2022-10-31 ucrt)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
-Running under: Windows 10 x64 (build 22621)
+Running under: Windows 10 x64 (build 19045)
 
 Matrix products: default
 
@@ -292,12 +334,11 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 loaded via a namespace (and not attached):
- [1] digest_0.6.30     lifecycle_1.0.3   jsonlite_1.8.4    magrittr_2.0.3   
- [5] evaluate_0.19     rlang_1.0.6       stringi_1.7.8     cli_3.4.1        
- [9] rstudioapi_0.14   vctrs_0.5.1       rmarkdown_2.18    tools_4.2.2      
-[13] stringr_1.5.0     glue_1.6.2        htmlwidgets_1.5.4 yaml_2.3.6       
-[17] xfun_0.34         fastmap_1.1.0     compiler_4.2.2    htmltools_0.5.3  
-[21] knitr_1.41       </code></pre>
+ [1] digest_0.6.30     jsonlite_1.8.3    magrittr_2.0.3    evaluate_0.18    
+ [5] rlang_1.0.6       stringi_1.7.8     cli_3.4.1         rstudioapi_0.14  
+ [9] rmarkdown_2.18    tools_4.2.2       stringr_1.4.1     htmlwidgets_1.5.4
+[13] xfun_0.34         yaml_2.3.6        fastmap_1.1.0     compiler_4.2.2   
+[17] htmltools_0.5.3   knitr_1.40       </code></pre>
 </div>
 </div>
 </section>

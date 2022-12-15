@@ -2,20 +2,24 @@
 
 The **M**ixed **A**ugmented **V**i**R**tual e**X**tended (Reality) Laboratory (referred to as the MAVRX Lab, pronounced *mavericks*, and stylized with curly brackets around {VR}) is space in which we drive innovation through alternative reality modalities and research. It came about in early 2021 as an entity, though its physical location had existed for some time. MA{VR}X Lab is intended as a collaborate effort, meant to be interdisciplinary and reside in a place of praxis and innovation.
 
-It is our goal to apply this to bleeding-edge innovation in alternate reality spaces.
-
-```{r}
-#| label: banner
-#| column: page
-#| fit-cap: "Official MA{VR}X Lab banner."
-knitr::include_graphics("images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png")
-```
+It is our goal to apply this to bleeding-edge innovation in alternate reality spaces. Does that just mean virtual reality? Absolutely not. Again, we are *interdisciplinary* and encourage this throughout. 
 
 ## Identity {.unnumbered}
+
 
 The lab's identity is determined by three basic concepts: its mission, vision, and values, but also of our dedication to praxis. Praxis as we refer to it can be defined as:
 
 > the process by which a theory, lesson, or skill is enacted, embodied, or realized \[and\] the act of engaging, applying, exercising, realizing, or practicing ideas[^about-1].
+
+This is present not only in our identity, but in our devotion to the ideals of the College of Applied Science and Technology and of the University of Arizona.
+
+```{r}
+#| label: banner
+#| column: page-right
+#| fig-cap: "Official MA{VR}X Lab banner."
+knitr::include_graphics("images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png")
+```
+
 
 ## Mission {.unnumbered}
 

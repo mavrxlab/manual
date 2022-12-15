@@ -28,8 +28,13 @@ book:
     - spaces.qmd
     - comms.qmd
     - meetings.qmd
+    - practice-protocols.qmd
+    - dissemination.qmd
     - summary.qmd
     - references.qmd
+  appendices: 
+    - project-step-by-step.qmd
+    - faq.qmd
 
 bibliography: references.bib
 

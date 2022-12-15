@@ -2,9 +2,9 @@
 
 We deal with disparate technologies, fields, and methodologies. Having clear and available policies, practices, and protocols is absolutely essential.
 
-## Documentation and Manuscripts {#docs-and-mans}
+## Documentation and Manuscripts {#sec-docs-and-mans}
 
-### File Formats {#fileformats}
+### File Formats {#sec-fileformats}
 
 Along with the \@ref(openness) we strive for when disseminating work via the lab, open formats should also be used when possible.
 
@@ -19,7 +19,7 @@ While the University of Arizona provides free access to the entire Adobe Creativ
 -   [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
 -   [ardour - the digital audio workstation](https://ardour.org/)
 
-### Documenting and Record Keeping {#documenting}
+### Documenting and Record Keeping {#sec-documenting}
 
 Projects should be housed in the lab's OSF project but the actual work done in these projects--writing, code, et cetera--should typically go in a GitHub repository within the lab's organization, especially student-driven projects. You may find that faculty-driven content may reside elsewhere but should still be linked within an OSF project. That repository can then be linked to the OSF sub-project.
 
@@ -29,7 +29,7 @@ Likewise, when describing commits in GitHub or describing updates in OSF, please
 
 Note that you don't just have to be coding applications to use GitHub! Use it for slide decks, papers, websites, and all sorts of things (like this lab manual, for example!).
 
-### Filenames
+### Filenames {#sec-filenames}
 
 We believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by [Jenny Bryan's "How to name files"](https://speakerdeck.com/jennybc/how-to-name-files?slide=4). They should have the following qualities:
 
@@ -37,7 +37,7 @@ We believe in standardizing as much as we can in order for consistency and clari
 2.  Human readable
 3.  Plays well with default ordering
 
-You'll want to name your files like `YYYY_MM_DD-Project_name-Sub_identifier-Slug.ext` or some such[^practice-protocols-2]
+You'll want to name your files like `YYYY-MM-DD_Project-name_Sub-identifier_Slug.ext` or some such.
 
 ## Lab Safety
 
@@ -65,5 +65,3 @@ Reserving or checking out lab equipment should be done via our online lab invent
 It's possible, also using Bookkit, for lab services to be requested by outside entities. Some services like 3D scanning of a property using a Matterport camera requires a certain amount of training. Other services, like providing assistance with software, can be done by those with the expertise necessary. Remember to let the director know if you have a particular skill that you'd like to offer as a service through the lab. (Know Unity? Perfect. Proficient with Adobe Aero? Awesome. These are great services to offer.)
 
 [^practice-protocols-1]: Use GitHub's `Release` function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.
-
-[^practice-protocols-2]: I prefer to use an underscore in place of a space and a dash as the separator of terms, concepts, and so on. This way allows you to Ctrl-Arrow through filenames and only stop at each portion rather than every word. -Dr S.

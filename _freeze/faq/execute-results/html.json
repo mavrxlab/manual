@@ -1,0 +1,16 @@
+{
+  "hash": "af53c1f405bec7af6239429c8ab4d014",
+  "result": {
+    "markdown": "# FAQ\n\nHere you'll find a collection of frequently (or just hopefully) asked questions and their answers (also hopefully!).\n\n## Submitting Projects\n\n{{< fa circle-question title=\"Question\" >}} **What kinds of projects does the lab accept?**\n\nWe are currently open to pretty much anything but are focusing on VR and AR projects as that is what the lab is currently equipped for. \n\n{{< fa circle-question title=\"Question\" >}} **Does my project idea have to be fleshed out or funded?**\n\nNeither! Obviously, if your project is funded and you want to partner with the lab, that's fantastic. If you're just in the initial ideation stage, that's also great. We're here to help.\n\n{{< fa circle-question title=\"Question\" >}} **I'm a student in (insert class or independent study here) and have a project idea that involves (VR/AR/XR/etc). Can I work with the lab on this?**\n\nAbsolutely! For students that aren't working for or in the lab, this is actually ideal. Work with your instructor before submitting a project.\n\n{{< fa circle-question title=\"Question\" >}} **How do I submit a project to the lab?**\n\nUse [this form](https://forms.office.com/r/ABPfYchMPD) to submit a project. Submissions are currently only open to those in the University of Arizona community. If you are outside the institution, you'll need your UArizona sponsor/collaborator to submit the project. Alternately, scan this QR code:\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](images/project-submission-form.png){width=25%}\n:::\n:::\n\n\n\n{{< fa circle-question title=\"Question\" >}} **I've submitted a project. What's next?**\n\nUpon submitting the project, one of the lab staff will verify it and add it to [the project tracker](https://emailarizona.sharepoint.com/sites/CAST-MAVRX-Lab/Lists/Project%20Tracker/). You are then free to schedule time in the lab, request support, and do whatever else you need to do for your project. You will be assigned a lab worker as a point-of-contact that can help you schedule time, work with equipment, and so on.\n\n{{< fa circle-question title=\"Question\" >}} **Where's the project tracker?**\n\nThe [project tracker is a Microsoft List](https://emailarizona.sharepoint.com/sites/CAST-MAVRX-Lab/Lists/Project%20Tracker/) that's tied to our lab's Microsoft Team. Once you've been added to the Team, you'll have access to and find the Project Tracker tab in the `project-updates` channel. If you've submitted a project and it's been approved, you'll receive an email with a link to edit your own projects within that List.\n\n## Office Hours\n\nThe lab offers \"office hours\" at physical locations and online. ",
+    "supporting": [
+      "faq_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

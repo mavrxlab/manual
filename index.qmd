@@ -1,7 +1,5 @@
 # Preface {.unnumbered}
 
-**THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.**
-
 ```{r}
 #| label: logo
 #| fig-align: center
@@ -12,6 +10,10 @@ knitr::include_graphics('images/square-solid.jpg', dpi = NA)
 This manual was created using **Quarto**. It's magical.
 
 The contents of this manual are heavily influenced by John Paul Minda and Emily Nielsen's *Lab Manual* [-@Minda_Nielsen_2018]. The full collection of influences and inspiration can be found [in the manual's GitHub repo](https://github.com/mavrxlab/lab-manual).
+
+::: callout-warning
+THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.
+:::
 
 ## Using this book {.unnumbered}
 

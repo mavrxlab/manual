@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.34">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="This is the lab manual for the Mixed Augmented ViRtual eXtended Reality Lab in the College of Applied Science and Technology at the University of Arizona.">
+
+<title>MA{VR}X Lab Manual - Appendix A — Step-by-Step Project Lifecycle</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="prev">
+<link href="./images/square-solid.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<meta name="twitter:title" content="MA{VR}X Lab Manual - Appendix A — Step-by-Step Project Lifecycle">
+<meta name="twitter:description" content="This is the lab manual for the Mixed Augmented ViRtual eXtended Reality Lab in the College of Applied Science and Technology at the University of Arizona.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Appendix A — Step-by-Step Project Lifecycle</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">MA{VR}X Lab Manual</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/mavrxlab/manual" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./MA{VR}X-Lab-Manual.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./MA{VR}X-Lab-Manual.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+    </ul>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">About</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./roles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and Expectations</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onboarding</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./spaces.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Labs and Physical Spaces</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./comms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Communications</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Meetings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./practice-protocols.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Practices and Protocols</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dissemination.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Dissemination of Lab Products</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Appendices</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project-step-by-step.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Step-by-Step Project Lifecycle</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#pitch-your-idea" id="toc-pitch-your-idea" class="nav-link active" data-scroll-target="#pitch-your-idea">Pitch Your Idea</a></li>
+  <li><a href="#create-your-project" id="toc-create-your-project" class="nav-link" data-scroll-target="#create-your-project">Create Your Project</a></li>
+  <li><a href="#credit-list-project-contributors" id="toc-credit-list-project-contributors" class="nav-link" data-scroll-target="#credit-list-project-contributors">CRediT List &amp; Project Contributors</a></li>
+  <li><a href="#irb-approval-optional-depending-on-project" id="toc-irb-approval-optional-depending-on-project" class="nav-link" data-scroll-target="#irb-approval-optional-depending-on-project">IRB Approval (optional, depending on project)</a></li>
+  <li><a href="#pre-registration" id="toc-pre-registration" class="nav-link" data-scroll-target="#pre-registration">Pre-registration</a></li>
+  <li><a href="#depositing-data" id="toc-depositing-data" class="nav-link" data-scroll-target="#depositing-data">Depositing Data</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/mavrxlab/manual/edit/main/project-step-by-step.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/mavrxlab/manual/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="project-step-by-step.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="project-step-by-step.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-project-lifecycle" class="quarto-section-identifier d-none d-lg-block">Appendix A — Step-by-Step Project Lifecycle</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a general process for a research project undertaken from scratch in the lab. Your actual process may differ considerably!</p>
+</div>
+</div>
+<p>This is a step-by-step instruction on how to begin a project from scratch. This is, as the rest of the manual, a living document. Coincidentally, this same basic process can be used for class projects or papers by following just the relevant steps. The basic checklist goes like this:</p>
+<ol type="1">
+<li>Submit your idea to the lab (and, if you’re a student researcher, your faculty research advisor) and do groundwork</li>
+<li>Create your project in OSF</li>
+<li>Create CRediT list of planned contributors and add them in the project</li>
+<li>Submit for IRB approval with faculty research advisor (optional, depending on the type of study)</li>
+<li>Pre-register (with sign-off from faculty research advisor)</li>
+<li>Data Depositing</li>
+</ol>
+<section id="pitch-your-idea" class="level2">
+<h2 class="anchored" data-anchor-id="pitch-your-idea">Pitch Your Idea</h2>
+<p>This is actually two steps and, if related to a class project, is very straightforward:</p>
+<ol type="1">
+<li>Use the project submission form. You will need to provide <em>at least</em> a name, description, deadline (if applicable), the type of project (in-lab, class-related, etc), and the final anticipated outcome goal (journal article, workshop, class project, etc).</li>
+<li>With initial approval of the concept, you need to then go on to provide the groundwork for the study: a literature review, research question(s), and so on. This creates the basis for the next stages like the IRB and pre-registration (remember, the IRB even requires a basic literature review and your study will absolutely need it, so best to begin early).</li>
+</ol>
+<p>This is very likely exploratory at this stage and <em>that is just fine</em>. You may even flip back and forth between steps 1 and 2 as you delve deeper into the topic. Again, <em>perfectly normal</em> and expected. This is what research is all about.</p>
+</section>
+<section id="create-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="create-your-project">Create Your Project</h2>
+<ul>
+<li><a href="https://help.osf.io/hc/en-us/articles/360019930093-Create-a-Project-from-a-Template#Use-a-public-project-as-a-template">Create a Project from a Template – OSF Guides</a></li>
+</ul>
+<p>For consistency within the lab’s organization, you’ll be creating your project from a template. At this point, you’ll want to pre-register your study. Remember, your <em>project</em> is a living, breathing thing that can be edited at will. <em>Registrations</em> are a little different, which we’ll come to shortly.</p>
+<p>You can also choose a description for your project at this point and a license. It’s important to remember that data itself cannot be copyrighted but a database and the analysis of that data can. The <a href="https://osf.io/f57nz/">University of Arizona’s Data Repository License Matrix</a> provides a few suggestions (though these are specifically for data deposited in ReDATA, they’re best practices):</p>
+<ol type="1">
+<li>Data: <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons — CC0 1.0 Universal</a> (public domain; no copyright)</li>
+<li>Documents &amp; Media: <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons — Attribution 4.0 International — CC BY 4.0</a></li>
+<li>Code/Software: <a href="https://choosealicense.com/licenses/mit/">MIT License</a></li>
+</ol>
+<p>At this point, you’ll also want to have watched the OSF tutorial videos to orient yourself to how the platform works and why we use it.</p>
+</section>
+<section id="credit-list-project-contributors" class="level2">
+<h2 class="anchored" data-anchor-id="credit-list-project-contributors">CRediT List &amp; Project Contributors</h2>
+<p>As mentioned in the Authorship section (<a href="dissemination.html#sec-authorship"><span>Section&nbsp;7.4</span></a>), you’ll want to employ the CRediT taxonomy to transparently identify who is responsible for doing what within the lifecycle of your research study. If it’s a solo study, your list may be very basic and simply identify your faculty research advisor or the director with “Supervision,” leaving the rest blank and, by default, assigned to you. A more complex project will require more roles. These should be identified in good faith as they are planned; they are not contracts. Include this list, either as a spreadsheet or a link (to a Google Sheet, for example) in your project (if you used the lab’s template, you’ll already have this).</p>
+<p>Make sure to include these folks in the <em>Contributors</em> list in your project.</p>
+</section>
+<section id="irb-approval-optional-depending-on-project" class="level2">
+<h2 class="anchored" data-anchor-id="irb-approval-optional-depending-on-project">IRB Approval (optional, depending on project)</h2>
+<p>If your project, generally speaking, involves humans other than yourself (a meta-study, for example, or one using existing data does not require this), you will likely need to get approval from the Institutional Research Board (IRB) and have had done the required training through the Human Subjects Protection Program (HSPP).</p>
+<blockquote class="blockquote">
+<p>University of Arizona students/residents who act as PIs are held to the same ethical and regulatory standards as faculty PIs. They are expected to follow all University policies and processes regarding human research.</p>
+<p>It is at the College and/or Department’s discretion whether a student or resident can serve as a PI. If a student (whether undergraduate or graduate) or a resident is serving as the PI, then a University advisor must be listed on the Verification of Human Subjects Training Form (VOTF) and have current training. The advisor does not need to be the student’s academic advisor or dissertation/thesis committee member, but must have an academic appointment at the University of Arizona. Advisors must sign off on the human research application and will be copied on all correspondence regarding the student’s human research project.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</blockquote>
+<p>One fringe benefit of needing to go through the IRB process is, having done this, your pre-registration content is almost entirely completed. Still, you’ll need to get IRB approval <em>prior</em> to making your plan public.</p>
+</section>
+<section id="pre-registration" class="level2">
+<h2 class="anchored" data-anchor-id="pre-registration">Pre-registration</h2>
+<p>Pre-registration is, more or less, a transparent plan of action and justification. See <a href="https://osf.io/ta92r">OSF Registries | ADHD and Hyperfocus</a> for a good example of what this looks like. You don’t <em>have</em> to have all the answers, all the exact specifics, but you should endeavor to provide the information you <em>do</em> have and explain why you can’t or won’t provide the others. Why pre-register, though?</p>
+<blockquote class="blockquote">
+<p>The main goal of preregistering one’s research is to make it easier for readers (and yourself) to distinguish between what the you set out to do (confirmation) and what was discovered along the way (exploration).<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</blockquote>
+<p>It also has the benefit of establishing precisely what you intended and expect to find, precluding <span class="math inline">\(p\)</span>-hacking<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. That said, remember that pre-registration is a <em>plan</em> and, as such, may become outdated or obsolete when things change unexpectedly. Preferably, if things do change, you should simply create a new pre-registration in the same project and either withdraw the previous one or simply reference the original now out-of-date pre-registration the new one. The time at which you do this is important<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+<p>Here’s a very important aspect of registering a project:</p>
+<blockquote class="blockquote">
+<p>A registration on OSF creates a frozen, time-stamped version of a project that cannot be edited or deleted. The original project can still be edited, while the registered version cannot. You might create a registration to capture a snapshot of your project at certain points in time – such as right before data collection begins, when you submit a manuscript for peer review, or upon completion of a project.</p>
+</blockquote>
+<p>Technically, you <em>can</em> update a pre-registration within a particular set of circumstances<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. Presume that the research design you’re planning on using is the one you <em>will</em> use. Registration updates are for situations outside the researcher’s control that are necessary to the project’s completion. The logistical changes necessitated by COVID-19 would be one example of this. You should also consider creating a pre-data-collection registration <em>and</em> a pre-data-analysis registration to capture any changes or alterations you’ll be requiring prior to data analysis.</p>
+<p><a href="http://datacolada.org/64">How To Properly Preregister A Study - Data Colada</a></p>
+<ul>
+<li>Choose the right pre-registration template: <a href="https://help.osf.io/hc/en-us/articles/360019738794-Select-a-Registration-Template">Select a Registration Template – OSF Guides</a> (it is very likely you will choose one of the following)
+<ol type="1">
+<li><a href="https://osf.io/w4ac2/">OSF | Qualitative Preregistration Template.docx</a></li>
+<li><a href="https://osf.io/b6xmd/">OSF | Preregistration for Qualitative Research Template.docx</a> (Kern &amp; Skrede Gleditsch, 2017)</li>
+<li><a href="https://osf.io/ce3hr/">OSF | Pre-Registration in Social Psychology (van ’t Veer &amp; Giner-Sorolla, 2016) Pre-Registration.docx</a></li>
+<li><a href="https://osf.io/fnsb6/">OSF | AsPredicted registration.docx</a><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></li>
+<li><a href="https://osf.io/4jd46/">OSF | Replication Recipe (Brandt et al., 2013) Pre-Registration.docx</a></li>
+</ol></li>
+</ul>
+<p>It’s understandable that undergraduate researchers, especially, may feel hesitant to pre-register their work given they’re still learning not just the content they’re researching but <em>how to</em> research. This is actually a great reason to go through the open science framework: that willingness to demonstrate growth, transparency, and a dedication to the process can be tremendously impressive.</p>
+</section>
+<section id="depositing-data" class="level2">
+<h2 class="anchored" data-anchor-id="depositing-data">Depositing Data</h2>
+<p>Your collected data may be easy to handle, as in the case of a small pilot survey, or it may take up tremendous space, as in the case of videos of interviews, large metadata collections, scraping, et cetera. Using the <a href="#redata">ReDATA</a> platform requires the inclusion of a <a href="https://osf.io/sj8xv/">README</a> helps that data to be found. Of course, you should always follow legal requirements for what kinds of information can be made available (this will be spelled out very clearly in the IRB if you are dealing with personally identifiable data).</p>
+<p>Regardless, check with your faculty research advisor or the director to see which platform/repository is most appropriate for your particular kind of data.</p>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><a href="https://research.arizona.edu/administration/getting-started/Principal-Investigator-Eligibility/conducting-human-subjects-research">Conducting Human Subjects Research | UArizona Research, Innovation &amp; Impact</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://www.cos.io/blog/preregistration-plan-not-prison">Preregistration: A Plan, Not a Prison</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://statisticalbullshit.com/2017/07/17/p-hacking/">P-Hacking – Statistical Bullshit</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://www.cos.io/blog/preregistration-plan-not-prison">Preregistration: A Plan, Not a Prison</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://help.osf.io/hc/en-us/articles/4414482864663-Introduction-to-Updating-">Introduction to Updating – OSF Guides</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>This is a good one to choose as it is very open and is what is included in the lab’s project template. -RS<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./references.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">References</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><a href="https://mavrxlab.org/">MA{VR}X Lab</a></div>   
+    <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>
