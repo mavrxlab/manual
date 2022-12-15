@@ -37,7 +37,7 @@ These are meta-reads, basically, that focus on "doing" research and sharing the 
 
 ## Lab Project Timelines
 
-We often get students from outside the lab wishing to run projects that involve lab resources. This is *wonderful* and we encourage this as much as possible. Generally speaking, these are the project timelines that students should envision. The year-long project (see Figure @fig-fullyear) is intended for lab assistants and graduate students and requires much closer and more frequent interaction with lab leaders than a standard semester-long project.
+We often get students from outside the lab wishing to run projects that involve lab resources. This is *wonderful* and we encourage this as much as possible. Generally speaking, these are the project timelines that students should envision. The year-long project (see @fig-fullyear) is intended for lab assistants and graduate students and requires much closer and more frequent interaction with lab leaders than a standard semester-long project.
 
 ```{r}
 # From https://github.com/rich-iannone/DiagrammeR/issues/457#issuecomment-1109995343
