@@ -12,31 +12,20 @@ date](https://img.shields.io/github/release-date/mavrxlab/manual.png)
 
 All rendering and whatnot is done by Quarto. Just render this and it will create README.md. The book will render all types when built.
 
--->
+--> 
 
 This is the Quarto content for the MA{VR}X Lab style guide.
 
 It is a work in progress.
 
-Gantt charts for project timelines are built in Obsidian and
-screenshotted. The `Diagrammr` package does not seem to play well with
-this.
-
 ## Brainstorming
 
-Thoughts on the style guide
+Thoughts on the style guide.
 
 ### Needs
 
-- Instructions on project creation
-  - Specifically, what a student fellow would need to do
-  - Also a timeline with expectations
 - Visual style guide
   - Includes fonts, color scheme, etc
-- Needs for including person profiles
-  - Profile image
-  - Other info on author pages
-  - Provide .RMarkdown template or just use a Google Form
 
 ## Resources, References, and Inspiration
 

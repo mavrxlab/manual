@@ -2,66 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mavrxlab.github.io/manual/index.html</loc>
-    <lastmod>2022-12-15T16:39:57.461Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mavrxlab.github.io/manual/intro.html</loc>
-    <lastmod>2022-12-14T03:46:43.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mavrxlab.github.io/manual/summary.html</loc>
-    <lastmod>2022-12-14T03:46:43.536Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mavrxlab.github.io/manual/references.html</loc>
-    <lastmod>2022-12-14T03:46:43.537Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mavrxlab.github.io/manual/MA{VR}X-Lab-Manual.epub</loc>
-    <lastmod>2022-12-14T03:46:35.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mavrxlab.github.io/manual/MA{VR}X-Lab-Manual.pdf</loc>
-    <lastmod>2022-12-14T03:46:43.138Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.161Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/about.html</loc>
-    <lastmod>2022-12-15T16:39:58.326Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.162Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/roles.html</loc>
-    <lastmod>2022-12-14T16:13:18.552Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.163Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/onboarding.html</loc>
-    <lastmod>2022-12-14T16:44:35.201Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.164Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/spaces.html</loc>
-    <lastmod>2022-12-14T16:13:26.772Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mavrxlab.github.io/manual/meetings.html</loc>
-    <lastmod>2022-12-15T16:38:57.983Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.164Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/comms.html</loc>
-    <lastmod>2022-12-14T16:13:18.554Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.165Z</lastmod>
   </url>
   <url>
-    <loc>https://mavrxlab.github.io/manual/dissemination.html</loc>
-    <lastmod>2022-12-15T16:13:38.211Z</lastmod>
+    <loc>https://mavrxlab.github.io/manual/meetings.html</loc>
+    <lastmod>2022-12-15T16:49:31.166Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/practice-protocols.html</loc>
-    <lastmod>2022-12-15T16:18:04.336Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/dissemination.html</loc>
+    <lastmod>2022-12-15T16:49:31.168Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/summary.html</loc>
+    <lastmod>2022-12-15T16:49:31.168Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mavrxlab.github.io/manual/references.html</loc>
+    <lastmod>2022-12-15T16:49:31.169Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/project-step-by-step.html</loc>
-    <lastmod>2022-12-15T16:22:35.026Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.173Z</lastmod>
   </url>
   <url>
     <loc>https://mavrxlab.github.io/manual/faq.html</loc>
-    <lastmod>2022-12-15T16:26:23.217Z</lastmod>
+    <lastmod>2022-12-15T16:49:31.173Z</lastmod>
   </url>
 </urlset>

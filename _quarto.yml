@@ -17,7 +17,7 @@ book:
   site-url: https://mavrxlab.github.io/manual/
   repo-url: https://github.com/mavrxlab/manual
   repo-actions: [edit,issue]
-  downloads: [pdf, epub]
+#  downloads: [pdf, epub]
 
 
   chapters:
@@ -47,7 +47,7 @@ editor_options:
     canonical: true
     
 execute:
-  freeze: auto
+  freeze: false
   echo: false
   warning: false
   message: false
@@ -56,14 +56,14 @@ format:
   html:
     theme: zephyr
     number-depth: 0
-  epub: default
-  pdf:
-    documentclass: scrreprt
-    cap-location: margin
-    include-in-header: 
-      text: |
-        \usepackage{makeidx}
-        \makeindex
-    include-after-body: 
-      text: |
-        \printindex
+#  epub: default
+#  pdf:
+#    documentclass: scrreprt
+#    cap-location: margin
+#    include-in-header: 
+#      text: |
+#        \usepackage{makeidx}
+#        \makeindex
+#    include-after-body: 
+#      text: |
+#        \printindex

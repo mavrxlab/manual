@@ -11,7 +11,7 @@
     "href": "index.html#using-this-book",
     "title": "MA{VR}X Lab Manual",
     "section": "Using this book",
-    "text": "Using this book\n\n\n\n\n\n\nCC BY-NC-SA 4.0\n\n\n\nThis manual is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. It is available as a PDF or via the web. We encourage you to use the OSF project to cite this particular document (Straight 2021)."
+    "text": "Using this book\n\n\n\n\n\n\nCC BY-NC-SA 4.0\n\n\n\nThis manual is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. We encourage you to use the OSF project to cite this particular document (Straight 2021)."
   },
   {
     "objectID": "index.html#structure",
@@ -33,27 +33,6 @@
     "title": "MA{VR}X Lab Manual",
     "section": "Acknowledgements",
     "text": "Acknowledgements\n\nMany thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.\n\n\nDr. Ryan StraightAssociate Professor of Practice in Applied Computing and Cyber OperationsDirector, MA{VR}X Lab\n\n\n\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF. osf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF.\nosf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
   },
   {
     "objectID": "about.html#identity",
@@ -89,13 +68,6 @@
     "title": "About",
     "section": "Code of Conduct",
     "text": "Code of Conduct\nIn addition to the University of Arizona Student Code of Conduct, the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About the MA{VR}X Lab\nThe Mixed Augmented ViRtual eXtended (Reality) Laboratory (referred to as the MAVRX Lab, pronounced mavericks, and stylized with curly brackets around {VR}) is space in which we drive innovation through alternative reality modalities and research. It came about in early 2021 as an entity, though its physical location had existed for some time. MA{VR}X Lab is intended as a collaborate effort, meant to be interdisciplinary and reside in a place of praxis and innovation.\nIt is our goal to apply this to bleeding-edge innovation in alternate reality spaces."
   },
   {
     "objectID": "roles.html#everyone",
@@ -168,20 +140,6 @@
     "text": "Other Locations\nPlans to expand into other locations like Chandler are in the works."
   },
   {
-    "objectID": "meetings.html#types-and-frequency",
-    "href": "meetings.html#types-and-frequency",
-    "title": "5  Meetings",
-    "section": "Types and frequency",
-    "text": "Types and frequency\nWe have a weekly 30-minute meeting just to check in. This is required and is how we make sure everyone’s making progress and up-to-speed!\n\nResearchers actively working\n\nBriefly update the lab on whatever they are working on and progress made.\nThis is also an opportunity for practice talks, elevator pitches for new project ideas, so on.\n\nAssistants/workers\n\nCheck-ins.\n\nFaculty Research Fellows and Guests\n\nSame as researchers above, but you are welcome to take the reigns!\n\n\nIf you fall into one of these categories and have not received an invite to the meetings, please contact the director."
-  },
-  {
-    "objectID": "meetings.html#notesminutes",
-    "href": "meetings.html#notesminutes",
-    "title": "5  Meetings",
-    "section": "Notes/Minutes",
-    "text": "Notes/Minutes\nNotes and minutes from meetings1 will–again, when appropriately public-facing–will be kept in the lab’s OSF ecosystem.\nTemplate for meeting notes in markdown. This is also found in the meeting-notes repo, along with instructions on how to add/update/correct meeting notes:\n# YYYY-MM-DD HH:MM\n\n- Lead:\n- Note Taker: \n\n## Attendees\n\nAdd yourself to the list if you attend and check the box!\n\n### Core Team\n\n- [ ] Person 1 [P1]\n- [ ] Person 2 [P2]\n\n### Guests\n\n- [] Your name here (INITIALS)\n\n## Weekly review\n\n- (General notes on weekly review here.)\n\n## Topics\n\n<!-- If you would like to add a topic to the agenda please add\nyour name to the appropriate list above and add a suggestion to\nthe PR using the following format: -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n## Any Questions?\n\nQuestions, comments or concerns? Submit a comment or PR for this\nset of notes after they're published."
-  },
-  {
     "objectID": "comms.html#sec-email",
     "href": "comms.html#sec-email",
     "title": "4  Communications",
@@ -210,39 +168,25 @@
     "text": "Webpage\nWe maintain a static website for the lab at https://mavrxlab.org. This is where we share news items, project updates, upcoming talks, publication notifications, and so on. Specifically, Quarto is used for this as it allows for native inclusion of data analyses and plain-text content creation. This book is also created using Quarto."
   },
   {
-    "objectID": "dissemination.html#openness",
-    "href": "dissemination.html#openness",
-    "title": "7  Dissemination of Lab Products",
-    "section": "Openness",
-    "text": "Openness\nFirstly, we endeavor to do as much work as possible in public to encourage transparency, honesty, and to support open science.\n\nFAIR Principles\nWe strive to adhere to FAIR Principles, meaning we aim to develop and provide digital assets that are Findable, Accessible, Interoperable, and Reusable using the FAIRification Framework:\n\nMetadata for Machines (M4M)\nFAIR Implementation Profile (FIP)\nFAIR Data Points (FDP) & FAIR Digital Objects (FDO)\n\n\n\n\n\n\n\n\nM4M\n\n\n\n\n\n\n\nFIP\n\n\n\n\n\n\n\nFDP\n\n\n\n\nFigure 7.1: The FAIRification Framework\n\n\n\n\nOpen Science Framework\nIn this vein, this book is open source and our projects are, when feasible, registered and tracked using the Open Science Framework supported by the Data Cooperative through the University Libraries at the University of Arizona. The OSF “is a research collaboration platform that is freely available to all researchers. It allows for the management and sharing of research projects at all stages of research.”\nThrough the OSF and field-specific preprint servers (i.e., SocArXiv, EdArXiv, et cetera), all publications that can legally be provided publicly via these services will be.\nResearch fellows–faculty and student, alike–should create OSF profiles to allow for transparent and clear attribution.\n\n\nReData\nWhen applicable, we store data using the The University of Arizona Research Data Repository (ReDATA) repository, also provided by the Data Cooperative, which\n\n…serves as the institutional repository for non-traditional scholarly outputs resulting from research activities by University of Arizona researchers. Depositing research materials (datasets, code, images, videos, etc.) associated with published articles and/or completed grants and research projects into ReDATA helps UA researchers ensure compliance with funder and journal data sharing policies as well as University data retention policies.\n\nGiven the nature of the work done in the MA{VR}X Lab, some content (large video recordings, for example) may be stored elsewhere. Links to data will regardless be linked within OSF projects."
+    "objectID": "meetings.html#types-and-frequency",
+    "href": "meetings.html#types-and-frequency",
+    "title": "5  Meetings",
+    "section": "Types and frequency",
+    "text": "Types and frequency\nWe have a weekly 30-minute meeting just to check in. This is required and is how we make sure everyone’s making progress and up-to-speed!\n\nResearchers actively working\n\nBriefly update the lab on whatever they are working on and progress made.\nThis is also an opportunity for practice talks, elevator pitches for new project ideas, so on.\n\nAssistants/workers\n\nCheck-ins.\n\nFaculty Research Fellows and Guests\n\nSame as researchers above, but you are welcome to take the reigns!\n\n\nIf you fall into one of these categories and have not received an invite to the meetings, please contact the director."
   },
   {
-    "objectID": "dissemination.html#writing",
-    "href": "dissemination.html#writing",
-    "title": "7  Dissemination of Lab Products",
-    "section": "Writing",
-    "text": "Writing\n\nMarkdown (specifically, Rmarkdown)\npapaja\nZotero\nObsidian (for your notes)\n\nUse the Zotero -> Zotfile -> mdnotes -> Obsidian -> Rmarkdown pathway for an incredibly powerful and collaborative workflow.\n\n\nThe importance of writing about your ideas and work cannot be overstated. Take it seriously, do it often, and get others involved."
+    "objectID": "meetings.html#notesminutes",
+    "href": "meetings.html#notesminutes",
+    "title": "5  Meetings",
+    "section": "Notes/Minutes",
+    "text": "Notes/Minutes\nNotes and minutes from meetings1 will–again, when appropriately public-facing–will be kept in the lab’s OSF ecosystem.\nTemplate for meeting notes in markdown. This is also found in the meeting-notes repo, along with instructions on how to add/update/correct meeting notes:\n# YYYY-MM-DD HH:MM\n\n- Lead:\n- Note Taker: \n\n## Attendees\n\nAdd yourself to the list if you attend and check the box!\n\n### Core Team\n\n- [ ] Person 1 [P1]\n- [ ] Person 2 [P2]\n\n### Guests\n\n- [] Your name here (INITIALS)\n\n## Weekly review\n\n- (General notes on weekly review here.)\n\n## Topics\n\n<!-- If you would like to add a topic to the agenda please add\nyour name to the appropriate list above and add a suggestion to\nthe PR using the following format: -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n<!-- ### Your topic (INITIALS, expected duration in minutes) -->\n\n## Any Questions?\n\nQuestions, comments or concerns? Submit a comment or PR for this\nset of notes after they're published."
   },
   {
-    "objectID": "dissemination.html#publishing",
-    "href": "dissemination.html#publishing",
-    "title": "7  Dissemination of Lab Products",
-    "section": "Publishing",
-    "text": "Publishing\nThe MA{VR}X Lab is, at heart, a research entity devoted to applied research. This is, of course, not to say we aren’t interested in or willing to support purely theoretical or exploratory research, especially when it is conceptualized as leading to concrete applications.\n\nConferences\nYou are encouraged to present research at conferences. The lab has a small budget to assist in students’ research presentation.\nThis is a list of conferences that those affiliated with the lab have attended, presented at, helped organize, or simply encourage knowing more about:\n(List of conferences goes here!)\n\n\nNewsletter\nThe lab also has a newsletter, MetaMeta, that goes out weekly."
-  },
-  {
-    "objectID": "dissemination.html#authorship",
-    "href": "dissemination.html#authorship",
-    "title": "7  Dissemination of Lab Products",
-    "section": "Authorship",
-    "text": "Authorship\nTo transparently and fairly maintain a record of contributions, the lab follows the CRediT - Contributor Roles Taxonomy. These roles are as follows:\n\nConceptualization\nData curation\nFormal Analysis\nFunding acquisition\nInvestigation\nMethodology\nProject administration\nResources\nSoftware\nSupervision\nValidation\nVisualization\nWriting – original draft\nWriting – review & editing\n\nIncluding a spreadsheet in your project directory that keeps track of who is fulfilling which role is required. Note that some roles may not be applicable (a student working on a self-directed project likely could ignore the Funding acquisition role, for example).\n\nContribution\nWhat counts as a contribution? Keep in mind that the CRediT taxonomy above is not a checklist insofar as it is not binary; making some punctuation changes in a manuscript, while technically “editing,” does not necessarily qualify you for the Writing - review & editing role. You should consider contributions to be substantive and meaningful.\nTo be considered an author on a publication, you should have:\n\ndesigned one or more experiment,\nwrote the initial draft for a major section,\nwrote the entire paper, and/or\ndesigned and carried out the analyses.\n\nThis is not to say that not having been involved to this degree means your work goes unappreciated or unacknowledged. For example, to receive named recognition in the author note or acknowledgements section, depending on the type of publication, you might have:\n\nhelped to carry out data collection,\ncreated a table or figure,\ncreated or cleaned a data set,\nengaged in media wrangling and editing, and/or\nhelped edit or proofread the manuscript.\n\n\n\nAuthor Order1\nAuthor order is not arbitrary, nor is it necessarily simply a descending list based on effort, at least the first and last author positions, specifically. That is, when involving student researchers, the first author typically goes to the student that wrote the majority of the paper, while the last author is the faculty research advisor, principle investigator, or the lab director (if they provided guidance).\nNote that there is typically also a corresponding author, who is essentially the point-of-contact for the work. They are the shepherd for that particular project and are in charge of correspondence. This is typically the first or last author.\nWithin the MA{VR}X Lab, there are generally four kinds of publication authorship considerations:\n\nIf the director or a faculty research fellow designed the experiment/project and was responsible for most of the authoring, they will be first and corresponding author.\nIf a student researcher assisted in some the research (by carrying out some of the experimentation, for example) under the supervision of the director or a faculty research fellow but the student was not responsible for the research design and/or writing most of the paper, the same applies from #1.\nIf a student researcher was primarily/entirely responsible for designing and conducting research, and wrote most of the paper, all under the supervision of the director or a faculty research fellow, the student researcher will be first author and the director or faculty research fellow will be last and corresponding author.\nAuthorship with graduate students is usually decided on a one-by-one project basis. Discuss this with your supervisor.\n\nGenerally speaking, if lab resources are being utilized, the director should have at least some advisory role in the publications or products and will likely default to last author.\n\n\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF. osf.io/8b6kj."
-  },
-  {
-    "objectID": "practice-protocols.html#docs-and-mans",
-    "href": "practice-protocols.html#docs-and-mans",
+    "objectID": "practice-protocols.html#sec-docs-and-mans",
+    "href": "practice-protocols.html#sec-docs-and-mans",
     "title": "6  Practices and Protocols",
     "section": "Documentation and Manuscripts",
-    "text": "Documentation and Manuscripts\n\nFile Formats\nAlong with the @ref(openness) we strive for when disseminating work via the lab, open formats should also be used when possible.\nDocuments: markdown (Rmarkdown and Quarto) or RTF\nAudio: FLAC - Free Lossless Audio Codec or OGG (Ogg Vorbis)\nImages: JPEG-2000 or TIFF\nVideo: MP4 or MKV (H.264 or H.265 encoded)\nWhile the University of Arizona provides free access to the entire Adobe Creative Cloud to anyone in its ecosystem, which the lab primarily uses, we also encourage the knowledge and use of free, open source software (FOSS) as an optional alternative:\n\nHandBrake: Open Source Video Transcoder\nGIMP - GNU Image Manipulation Program\nardour - the digital audio workstation\n\n\n\nDocumenting and Record Keeping\nProjects should be housed in the lab’s OSF project but the actual work done in these projects–writing, code, et cetera–should typically go in a GitHub repository within the lab’s organization, especially student-driven projects. You may find that faculty-driven content may reside elsewhere but should still be linked within an OSF project. That repository can then be linked to the OSF sub-project.\nHaving a well-written and organized README file in your repository is absolutely essential. To conform with UA Research Data Repository Policies (and to have a consistent organization), you should at least start with the README_template.txt they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. The 2014 Software in Research survey readme is a good example of this.\nLikewise, when describing commits in GitHub or describing updates in OSF, please don’t skimp. Commits are cheap and the next person that reads what you left will thank you.1\nNote that you don’t just have to be coding applications to use GitHub! Use it for slide decks, papers, websites, and all sorts of things (like this lab manual, for example!).\n\n\nFilenames\nWe believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by Jenny Bryan’s “How to name files”. They should have the following qualities:\n\nMachine readable\nHuman readable\nPlays well with default ordering\n\nYou’ll want to name your files like YYYY_MM_DD-Project_name-Sub_identifier-Slug.ext or some such2"
+    "text": "Documentation and Manuscripts\n\nFile Formats\nAlong with the @ref(openness) we strive for when disseminating work via the lab, open formats should also be used when possible.\nDocuments: markdown (Rmarkdown and Quarto) or RTF\nAudio: FLAC - Free Lossless Audio Codec or OGG (Ogg Vorbis)\nImages: JPEG-2000 or TIFF\nVideo: MP4 or MKV (H.264 or H.265 encoded)\nWhile the University of Arizona provides free access to the entire Adobe Creative Cloud to anyone in its ecosystem, which the lab primarily uses, we also encourage the knowledge and use of free, open source software (FOSS) as an optional alternative:\n\nHandBrake: Open Source Video Transcoder\nGIMP - GNU Image Manipulation Program\nardour - the digital audio workstation\n\n\n\nDocumenting and Record Keeping\nProjects should be housed in the lab’s OSF project but the actual work done in these projects–writing, code, et cetera–should typically go in a GitHub repository within the lab’s organization, especially student-driven projects. You may find that faculty-driven content may reside elsewhere but should still be linked within an OSF project. That repository can then be linked to the OSF sub-project.\nHaving a well-written and organized README file in your repository is absolutely essential. To conform with UA Research Data Repository Policies (and to have a consistent organization), you should at least start with the README_template.txt they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. The 2014 Software in Research survey readme is a good example of this.\nLikewise, when describing commits in GitHub or describing updates in OSF, please don’t skimp. Commits are cheap and the next person that reads what you left will thank you.1\nNote that you don’t just have to be coding applications to use GitHub! Use it for slide decks, papers, websites, and all sorts of things (like this lab manual, for example!).\n\n\nFilenames\nWe believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by Jenny Bryan’s “How to name files”. They should have the following qualities:\n\nMachine readable\nHuman readable\nPlays well with default ordering\n\nYou’ll want to name your files like YYYY-MM-DD_Project-name_Sub-identifier_Slug.ext or some such."
   },
   {
     "objectID": "practice-protocols.html#lab-safety",
@@ -266,6 +210,13 @@
     "text": "Requesting Lab Services\nIt’s possible, also using Bookkit, for lab services to be requested by outside entities. Some services like 3D scanning of a property using a Matterport camera requires a certain amount of training. Other services, like providing assistance with software, can be done by those with the expertise necessary. Remember to let the director know if you have a particular skill that you’d like to offer as a service through the lab. (Know Unity? Perfect. Proficient with Adobe Aero? Awesome. These are great services to offer.)"
   },
   {
+    "objectID": "dissemination.html#openness",
+    "href": "dissemination.html#openness",
+    "title": "7  Dissemination of Lab Products",
+    "section": "Openness",
+    "text": "Openness\nFirstly, we endeavor to do as much work as possible in public to encourage transparency, honesty, and to support open science.\n\nFAIR Principles\nWe strive to adhere to FAIR Principles, meaning we aim to develop and provide digital assets that are Findable, Accessible, Interoperable, and Reusable using the FAIRification Framework:\n\nMetadata for Machines (M4M)\nFAIR Implementation Profile (FIP)\nFAIR Data Points (FDP) & FAIR Digital Objects (FDO)\n\n\n\n\n\n\n\n\nM4M\n\n\n\n\n\n\n\nFIP\n\n\n\n\n\n\n\nFDP\n\n\n\n\nFigure 7.1: The FAIRification Framework\n\n\n\n\nOpen Science Framework\nIn this vein, this book is open source and our projects are, when feasible, registered and tracked using the Open Science Framework supported by the Data Cooperative through the University Libraries at the University of Arizona. The OSF “is a research collaboration platform that is freely available to all researchers. It allows for the management and sharing of research projects at all stages of research.”\nThrough the OSF and field-specific preprint servers (i.e., SocArXiv, EdArXiv, et cetera), all publications that can legally be provided publicly via these services will be.\nResearch fellows–faculty and student, alike–should create OSF profiles to allow for transparent and clear attribution.\n\n\nReData\nWhen applicable, we store data using the The University of Arizona Research Data Repository (ReDATA) repository, also provided by the Data Cooperative, which\n\n…serves as the institutional repository for non-traditional scholarly outputs resulting from research activities by University of Arizona researchers. Depositing research materials (datasets, code, images, videos, etc.) associated with published articles and/or completed grants and research projects into ReDATA helps UA researchers ensure compliance with funder and journal data sharing policies as well as University data retention policies.\n\nGiven the nature of the work done in the MA{VR}X Lab, some content (large video recordings, for example) may be stored elsewhere. Links to data will regardless be linked within OSF projects."
+  },
+  {
     "objectID": "dissemination.html#sec-writing",
     "href": "dissemination.html#sec-writing",
     "title": "7  Dissemination of Lab Products",
@@ -287,11 +238,18 @@
     "text": "Authorship\nTo transparently and fairly maintain a record of contributions, the lab follows the CRediT - Contributor Roles Taxonomy. These roles are as follows:\n\nConceptualization\nData curation\nFormal Analysis\nFunding acquisition\nInvestigation\nMethodology\nProject administration\nResources\nSoftware\nSupervision\nValidation\nVisualization\nWriting – original draft\nWriting – review & editing\n\nIncluding a spreadsheet in your project directory that keeps track of who is fulfilling which role is required. Note that some roles may not be applicable (a student working on a self-directed project likely could ignore the Funding acquisition role, for example).\n\nContribution\nWhat counts as a contribution? Keep in mind that the CRediT taxonomy above is not a checklist insofar as it is not binary; making some punctuation changes in a manuscript, while technically “editing,” does not necessarily qualify you for the Writing - review & editing role. You should consider contributions to be substantive and meaningful.\nTo be considered an author on a publication, you should have:\n\ndesigned one or more experiment or survey instrument,\nwrote the initial draft for a major section,\nwrote the entire paper, and/or\ndesigned and carried out the analyses.\n\nThis is not to say that not having been involved to this degree means your work goes unappreciated or unacknowledged. For example, to receive named recognition in the author note or acknowledgements section, depending on the type of publication, you might have:\n\nhelped to carry out data collection,\ncreated a table or figure,\ncreated or cleaned a data set,\nengaged in media wrangling and editing, and/or\nhelped edit or proofread the manuscript.\n\n\n\nAuthor Order1\nAuthor order is not arbitrary, nor is it necessarily simply a descending list based on effort, at least the first and last author positions, specifically. That is, when involving student researchers, the first author typically goes to the student that wrote the majority of the paper, while the last author is the faculty research advisor, principle investigator, or the lab director (if they provided guidance).\nNote that there is typically also a corresponding author, who is essentially the point-of-contact for the work. They are the shepherd for that particular project and are in charge of correspondence. This is typically the first or last author.\nWithin the MA{VR}X Lab, there are generally four kinds of publication authorship considerations:\n\nIf the director or a faculty research fellow designed the experiment/project and was responsible for most of the authoring, they will be first and corresponding author.\nIf a student researcher assisted in some the research (by carrying out some of the experimentation, for example) under the supervision of the director or a faculty research fellow but the student was not responsible for the research design and/or writing most of the paper, the same applies from #1.\nIf a student researcher was primarily/entirely responsible for designing and conducting research, and wrote most of the paper, all under the supervision of the director or a faculty research fellow, the student researcher will be first author and the director or faculty research fellow will be last and corresponding author.\nAuthorship with graduate students is usually decided on a one-by-one project basis. Discuss this with your supervisor.\n\nGenerally speaking, if lab resources are being utilized, the director should have at least some advisory role in the publications or products and will likely default to last author.\n\n\n\n\nMinda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF. osf.io/8b6kj."
   },
   {
-    "objectID": "practice-protocols.html#sec-docs-and-mans",
-    "href": "practice-protocols.html#sec-docs-and-mans",
-    "title": "6  Practices and Protocols",
-    "section": "Documentation and Manuscripts",
-    "text": "Documentation and Manuscripts\n\nFile Formats\nAlong with the @ref(openness) we strive for when disseminating work via the lab, open formats should also be used when possible.\nDocuments: markdown (Rmarkdown and Quarto) or RTF\nAudio: FLAC - Free Lossless Audio Codec or OGG (Ogg Vorbis)\nImages: JPEG-2000 or TIFF\nVideo: MP4 or MKV (H.264 or H.265 encoded)\nWhile the University of Arizona provides free access to the entire Adobe Creative Cloud to anyone in its ecosystem, which the lab primarily uses, we also encourage the knowledge and use of free, open source software (FOSS) as an optional alternative:\n\nHandBrake: Open Source Video Transcoder\nGIMP - GNU Image Manipulation Program\nardour - the digital audio workstation\n\n\n\nDocumenting and Record Keeping\nProjects should be housed in the lab’s OSF project but the actual work done in these projects–writing, code, et cetera–should typically go in a GitHub repository within the lab’s organization, especially student-driven projects. You may find that faculty-driven content may reside elsewhere but should still be linked within an OSF project. That repository can then be linked to the OSF sub-project.\nHaving a well-written and organized README file in your repository is absolutely essential. To conform with UA Research Data Repository Policies (and to have a consistent organization), you should at least start with the README_template.txt they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. The 2014 Software in Research survey readme is a good example of this.\nLikewise, when describing commits in GitHub or describing updates in OSF, please don’t skimp. Commits are cheap and the next person that reads what you left will thank you.1\nNote that you don’t just have to be coding applications to use GitHub! Use it for slide decks, papers, websites, and all sorts of things (like this lab manual, for example!).\n\n\nFilenames\nWe believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by Jenny Bryan’s “How to name files”. They should have the following qualities:\n\nMachine readable\nHuman readable\nPlays well with default ordering\n\nYou’ll want to name your files like YYYY-MM-DD_Project-name_Sub-identifier_Slug.ext or some such."
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "8  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Minda, John P, and Emily Nielsen. 2018. “Lab Manual.” OSF.\nosf.io/8b6kj.\n\n\nStraight, Ryan. 2021. “MA{VR}X Lab Manual.” https://doi.org/10.17605/OSF.IO/UPA25."
   },
   {
     "objectID": "project-step-by-step.html#pitch-your-idea",
