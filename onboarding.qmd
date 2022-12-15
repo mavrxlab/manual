@@ -3,19 +3,22 @@
 Use this section as a step-by-step to get up to speed when you're new to the lab. This list is *not* suggested, but *required*!
 
 1.  Complete our Onboarding Survey and provide your profile info to to the director.
-2.  If you are paid by the university in any way, be sure to clarify your time reporting requirements with HR.
-3.  Join the lab's Microsoft Team and post an introduction to the `#social` channel.
-4.  Install the various software and sign up for the platforms we use in the lab:
+1.  If you are paid by the university in any way, be sure to clarify your time reporting requirements with HR.
+2.  Join the lab's Microsoft Team and post an introduction to the `#social` channel.
+1.  Install the various software and sign up for the platforms we use in the lab:
     1.  Git and GitHub (or GitKraken; follow the Git chapter instructions to get your free education upgrade. Request to join the lab's GitHub organization: https://github.com/mavrxlab/
     2.  Create accounts for OSF, Protocols.io, and ClusterMarket
     3.  Install R, RStudio, and Quarto on your machine.
     4.  Install Zotero.
     5.  Sign up for your [Adobe Creative Cloud](https://adobe.arizona.edu/signup/adobe-creative-cloud) access.
-5.  [CITI Program training](https://www.citiprogram.org/?pageID=668)
+1. [FERPA Training | Office of the Registrar](https://registrar.arizona.edu/privacy-ferpa/ferpa-training)
+    + Follow the instructions under the `FERPA for Non-Instructors`.
+    + There's no guarantee anyone will be working with FERPA-covered data but it's important to be prepared.
+1. [CITI Program training](https://www.citiprogram.org/?pageID=668)
     1.  Select `Log In Through My Organization`, search for `University of Arizona`, sign in with your NetID.
     2.  Find the `Group 2: Social & Behavioral Research Investigators` course and complete it.
-    3.  Send a copy of your Completion Record to the director and copy your advisor.
-6.  Check with the director about any other specific requirements.
+    3.  Send a copy of your Completion Record to the director and copy your advisor just so they know.
+1.  Check with the director about any other specific requirements.
 
 ## Baseline Reading List
 
