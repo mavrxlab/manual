@@ -37,7 +37,7 @@ These are meta-reads, basically, that focus on "doing" research and sharing the 
 
 ## Lab Project Timelines
 
-We often get students from outside the lab wishing to run projects that involve lab resources. This is *wonderful* and we encourage this as much as possible. Generally speaking, these are the project timelines that students should envision. The year-long project (see Figure \@ref(fig:fullyear)) is intended for lab assistants and graduate students and requires much closer and more frequent interaction with lab leaders than a standard semester-long project.
+We often get students from outside the lab wishing to run projects that involve lab resources. This is *wonderful* and we encourage this as much as possible. Generally speaking, these are the project timelines that students should envision. The year-long project (see Figure @fig-fullyear) is intended for lab assistants and graduate students and requires much closer and more frequent interaction with lab leaders than a standard semester-long project.
 
 ```{r}
 # From https://github.com/rich-iannone/DiagrammeR/issues/457#issuecomment-1109995343
@@ -56,19 +56,22 @@ download.file(js_cdn_url, dist_loc)
 ```
 
 ```{r}
-#| label: 7wk
+#| label: fig-7wk
+#| fig-cap: "7.5-week project starting 7W1 spring 2023"
 #| margin: page
 DiagrammeR::DiagrammeR("figures/gantt-7.mmd")
 ```
 
 ```{r}
-#| label: 15wk
+#| label: fig-15wk
 #| margin: page
+#| fig-cap: "15-week project 2023 Spring"
 DiagrammeR::DiagrammeR("figures/gantt-15.mmd")
 ```
 
 ```{r}
-#| label: fullyear
+#| label: fig-fullyear
+#| fig-cap: "Full 2023 year project"
 #| margin: page
 DiagrammeR::DiagrammeR("figures/gantt-year.mmd")
 ```
