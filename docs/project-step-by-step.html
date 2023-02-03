@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.34">
+<meta name="generator" content="quarto-1.2.313">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -187,7 +187,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#pitch-your-idea" id="toc-pitch-your-idea" class="nav-link active" data-scroll-target="#pitch-your-idea">Pitch Your Idea</a></li>
-  <li><a href="#create-your-project" id="toc-create-your-project" class="nav-link" data-scroll-target="#create-your-project">Create Your Project</a></li>
+  <li><a href="#create-your-git-repository-and-get-the-ball-rolling" id="toc-create-your-git-repository-and-get-the-ball-rolling" class="nav-link" data-scroll-target="#create-your-git-repository-and-get-the-ball-rolling">Create Your Git Repository and Get the Ball Rolling</a></li>
+  <li><a href="#bring-your-project-into-the-labs-osf-organization" id="toc-bring-your-project-into-the-labs-osf-organization" class="nav-link" data-scroll-target="#bring-your-project-into-the-labs-osf-organization">Bring Your Project into the Lab’s OSF Organization</a></li>
   <li><a href="#credit-list-project-contributors" id="toc-credit-list-project-contributors" class="nav-link" data-scroll-target="#credit-list-project-contributors">CRediT List &amp; Project Contributors</a></li>
   <li><a href="#irb-approval-optional-depending-on-project" id="toc-irb-approval-optional-depending-on-project" class="nav-link" data-scroll-target="#irb-approval-optional-depending-on-project">IRB Approval (optional, depending on project)</a></li>
   <li><a href="#pre-registration" id="toc-pre-registration" class="nav-link" data-scroll-target="#pre-registration">Pre-registration</a></li>
@@ -196,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/mavrxlab/manual/edit/main/project-step-by-step.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/mavrxlab/manual/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -228,9 +229,26 @@ Warning
 <p>This is a general process for a research project undertaken from scratch in the lab. Your actual process may differ considerably!</p>
 </div>
 </div>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important clarification about what is <strong>research</strong>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Please keep in mind that your work in the lab <em>may or may not</em> be classified as “research” at the university. If you are, for example, administering a survey as part of coursework, this is <em>not</em> considered “research.” If you are assisting a faculty member, for example, with a study they’re undertaking, that <em>is</em> considered “research.” This differentiation determines whether you need IRB approval, ethics training, and so on, so <em>be sure to check</em>!</p>
+</div>
+</div>
+</div>
 <p>This is a step-by-step instruction on how to begin a project from scratch. This is, as the rest of the manual, a living document. Coincidentally, this same basic process can be used for class projects or papers by following just the relevant steps. The basic checklist goes like this:</p>
 <ol type="1">
 <li>Submit your idea to the lab (and, if you’re a student researcher, your faculty research advisor) and do groundwork</li>
+<li>Create Your Git Repository and Get the Ball Rolling</li>
 <li>Create your project in OSF</li>
 <li>Create CRediT list of planned contributors and add them in the project</li>
 <li>Submit for IRB approval with faculty research advisor (optional, depending on the type of study)</li>
@@ -246,8 +264,71 @@ Warning
 </ol>
 <p>This is very likely exploratory at this stage and <em>that is just fine</em>. You may even flip back and forth between steps 1 and 2 as you delve deeper into the topic. Again, <em>perfectly normal</em> and expected. This is what research is all about.</p>
 </section>
-<section id="create-your-project" class="level2">
-<h2 class="anchored" data-anchor-id="create-your-project">Create Your Project</h2>
+<section id="create-your-git-repository-and-get-the-ball-rolling" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="create-your-git-repository-and-get-the-ball-rolling">Create Your Git Repository and Get the Ball Rolling</h2>
+<p>At this point you’re going to start setting up your ecosystem. In the MA{VR}X Lab, we mainly use R and encourage the use of easily reproducable analyses and reports through platforms like Quarto. As such, the following steps are aligned toward this. (If you’ve already done this once, the process for the project is simply creating a new repository from the project template and running with it. This section is for <em>first time users</em>!)</p>
+<ol type="1">
+<li>Get your repo up and running.
+<ol type="1">
+<li>Log into GitHub using your UArizona NetID.</li>
+<li>Be sure you’ve been added to the lab’s GitHub Organization! (If not, DM the director on Teams.)</li>
+<li>Visit the Project Template repository: https://github.com/mavrxlab/project-template</li>
+<li>Click the green “Use this template” button to “Create a new repository.”</li>
+<li>Set the <code>Owner</code> to the lab. Give your repository a meaningful (but short!) name. Hyphens for spaces.</li>
+<li>Write a longer description. You can always flesh this out later.</li>
+<li>Select <code>Private</code> visibility. (This is your <em>working</em> repository. Outputs and products will go elsewhere.)</li>
+<li>Click the green <code>Create repository from template</code> button!</li>
+</ol></li>
+<li>Get your repo into your computer where you can work on it. 
+<ol type="1">
+<li>I encourage GitKraken as your Git interface as it’s got great project organization options like Workspaces: https://www.gitkraken.com/git-client</li>
+<li>Now’s a great time to get familiar with the interface with the <a href="https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet">GitKraken-provided cheatsheet</a> and the <a href="https://www.youtube.com/watch?v=RiAeNSFjjLc">interface introduction video</a>.</li>
+<li>Make sure you’ve gotten your GitHub Student Developer pack so you can get GitKraken for free! https://www.gitkraken.com/github-student-developer-pack-bundle</li>
+<li>Create a folder on your computer where you want the repository to live <em>as a subfolder</em>. So, you can create <code>Repos\</code> somewhere if you want it to be a subfolder of that.</li>
+<li>Back in GitKraken, <strong>Clone</strong> from <strong>GitHub.com</strong> the repository you created into that folder. It will create a subfolder with the name of your repo. For example, if you called your repo <code>my-project</code>, it’ll live in <code>Repos\my-project\</code></li>
+<li><strong>Pull</strong> the repository (the ⬇️ icon toward the top, or hit <code>Ctrl-P</code> to open the command palette and search for <code>pull</code>). Now you have your repository on your computer!</li>
+</ol></li>
+<li>Install R, Quarto, and RStudio so you can begin working in that project.
+<ol type="1">
+<li>Install R (the <em>base</em> option): <a href="https://cran.r-project.org" class="uri">https://cran.r-project.org</a></li>
+<li>Install Quarto: <a href="https://quarto.org/docs/get-started/" class="uri">https://quarto.org/docs/get-started/</a></li>
+<li>Install RStudio (you already installed R, so go straight to #2): <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
+</ol></li>
+<li>Open up your project!
+<ol type="1">
+<li>Navigate to your local repository (<code>Repos\my-project\</code> in our example).</li>
+<li>You’ll find a <code>project-template.Rproj</code> file. That’s your project file. Rename it appropriately.</li>
+<li>Open it up and have a look around!</li>
+</ol></li>
+<li>Make your first commit
+<ol type="1">
+<li>Now that you’ve renamed your <code>.Rproj</code> file, if you go back into GitKraken, you’ll see there’s now a change pending.</li>
+<li>First, you’ll want to <code>Stage</code> the changes you’ve made: <a href="https://help.gitkraken.com/gitkraken-client/staging/" class="uri">https://help.gitkraken.com/gitkraken-client/staging/</a></li>
+<li>Then, you’ll <code>Commit</code> those changes: <a href="https://help.gitkraken.com/gitkraken-client/commits/" class="uri">https://help.gitkraken.com/gitkraken-client/commits/</a></li>
+<li>Finally, you’ll <code>Push</code> your commits: <a href="https://help.gitkraken.com/gitkraken-client/pushing-and-pulling/#push" class="uri">https://help.gitkraken.com/gitkraken-client/pushing-and-pulling/#push</a></li>
+<li>And you’re ready to keep working! (Keep in mind that you’ll probably only have one branch and won’t need the vast majority of Git complexities. That said, learning the platform is a useful skill unto itself, plus you have the option of using GitHub Pages or Netlify to publish content directly from your repositories.)</li>
+<li>Now, if you want to work on another machine, you can just clone the repository there, pull any changes, and voila, you’re good to go!</li>
+</ol></li>
+</ol>
+<div class="no-row-height column-margin column-container"><span class=""><div class="quarto-video ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/RiAeNSFjjLc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></span></div><div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Never forget to pull before working!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>If you’re moving between machines, <strong>always</strong> be sure to commit and push your changes when you’re done on one machine and pull any updates on the other before starting to work. Failure to do this can result in conflicts!</p>
+</div>
+</div>
+</div>
+</section>
+<section id="bring-your-project-into-the-labs-osf-organization" class="level2">
+<h2 class="anchored" data-anchor-id="bring-your-project-into-the-labs-osf-organization">Bring Your Project into the Lab’s OSF Organization</h2>
 <ul>
 <li><a href="https://help.osf.io/hc/en-us/articles/360019930093-Create-a-Project-from-a-Template#Use-a-public-project-as-a-template">Create a Project from a Template – OSF Guides</a></li>
 </ul>

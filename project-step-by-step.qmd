@@ -1,40 +1,87 @@
 # Step-by-Step Project Lifecycle {#sec-project-lifecycle}
 
 ::: callout-warning
-
 This is a general process for a research project undertaken from scratch in the lab. Your actual process may differ considerably!
+:::
 
+::: {.callout-important collapse="false" appearance="default" icon="true"}
+## Important clarification about what is **research**
+
+Please keep in mind that your work in the lab *may or may not* be classified as "research" at the university. If you are, for example, administering a survey as part of coursework, this is *not* considered "research." If you are assisting a faculty member, for example, with a study they're undertaking, that *is* considered "research." This differentiation determines whether you need IRB approval, ethics training, and so on, so *be sure to check*!
 :::
 
 This is a step-by-step instruction on how to begin a project from scratch. This is, as the rest of the manual, a living document. Coincidentally, this same basic process can be used for class projects or papers by following just the relevant steps. The basic checklist goes like this:
 
-1. Submit your idea to the lab (and, if you're a student researcher, your faculty research advisor) and do groundwork
-1. Create your project in OSF
-1. Create CRediT list of planned contributors and add them in the project
-1. Submit for IRB approval with faculty research advisor (optional, depending on the type of study)
-1. Pre-register (with sign-off from faculty research advisor)
-1. Data Depositing
+1.  Submit your idea to the lab (and, if you're a student researcher, your faculty research advisor) and do groundwork
+2.  Create Your Git Repository and Get the Ball Rolling
+3.  Create your project in OSF
+4.  Create CRediT list of planned contributors and add them in the project
+5.  Submit for IRB approval with faculty research advisor (optional, depending on the type of study)
+6.  Pre-register (with sign-off from faculty research advisor)
+7.  Data Depositing
 
 ## Pitch Your Idea
 
 This is actually two steps and, if related to a class project, is very straightforward:
 
-1. Use the project submission form. You will need to provide _at least_ a name, description, deadline (if applicable), the type of project (in-lab, class-related, etc), and the final anticipated outcome goal (journal article, workshop, class project, etc).
-1. With initial approval of the concept, you need to then go on to provide the groundwork for the study: a literature review, research question(s), and so on. This creates the basis for the next stages like the IRB and pre-registration (remember, the IRB even requires a basic literature review and your study will absolutely need it, so best to begin early).
+1.  Use the project submission form. You will need to provide *at least* a name, description, deadline (if applicable), the type of project (in-lab, class-related, etc), and the final anticipated outcome goal (journal article, workshop, class project, etc).
+2.  With initial approval of the concept, you need to then go on to provide the groundwork for the study: a literature review, research question(s), and so on. This creates the basis for the next stages like the IRB and pre-registration (remember, the IRB even requires a basic literature review and your study will absolutely need it, so best to begin early).
 
 This is very likely exploratory at this stage and *that is just fine*. You may even flip back and forth between steps 1 and 2 as you delve deeper into the topic. Again, *perfectly normal* and expected. This is what research is all about.
 
-## Create Your Project
+## Create Your Git Repository and Get the Ball Rolling
 
-+ [Create a Project from a Template – OSF Guides](https://help.osf.io/hc/en-us/articles/360019930093-Create-a-Project-from-a-Template#Use-a-public-project-as-a-template)
+At this point you're going to start setting up your ecosystem. In the MA{VR}X Lab, we mainly use R and encourage the use of easily reproducable analyses and reports through platforms like Quarto. As such, the following steps are aligned toward this. (If you've already done this once, the process for the project is simply creating a new repository from the project template and running with it. This section is for *first time users*!)
+
+1.  Get your repo up and running.
+    1.  Log into GitHub using your UArizona NetID.
+    2.  Be sure you've been added to the lab's GitHub Organization! (If not, DM the director on Teams.)
+    3.  Visit the Project Template repository: https://github.com/mavrxlab/project-template
+    4.  Click the green "Use this template" button to "Create a new repository."
+    5.  Set the `Owner` to the lab. Give your repository a meaningful (but short!) name. Hyphens for spaces.
+    6.  Write a longer description. You can always flesh this out later.
+    7.  Select `Private` visibility. (This is your *working* repository. Outputs and products will go elsewhere.)
+    8.  Click the green `Create repository from template` button!
+2.  Get your repo into your computer where you can work on it. [{{< video https://www.youtube.com/embed/RiAeNSFjjLc >}}]{.aside}
+    1.  I encourage GitKraken as your Git interface as it's got great project organization options like Workspaces: https://www.gitkraken.com/git-client
+    2.  Now's a great time to get familiar with the interface with the [GitKraken-provided cheatsheet](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet) and the [interface introduction video](https://www.youtube.com/watch?v=RiAeNSFjjLc).
+    3.  Make sure you've gotten your GitHub Student Developer pack so you can get GitKraken for free! https://www.gitkraken.com/github-student-developer-pack-bundle
+    4.  Create a folder on your computer where you want the repository to live *as a subfolder*. So, you can create `Repos\` somewhere if you want it to be a subfolder of that.
+    5.  Back in GitKraken, **Clone** from **GitHub.com** the repository you created into that folder. It will create a subfolder with the name of your repo. For example, if you called your repo `my-project`, it'll live in `Repos\my-project\`
+    6.  **Pull** the repository (the ⬇️ icon toward the top, or hit `Ctrl-P` to open the command palette and search for `pull`). Now you have your repository on your computer!
+3.  Install R, Quarto, and RStudio so you can begin working in that project.
+    1.  Install R (the *base* option): <https://cran.r-project.org>
+    2.  Install Quarto: <https://quarto.org/docs/get-started/>
+    3.  Install RStudio (you already installed R, so go straight to #2): <https://posit.co/download/rstudio-desktop/>
+4.  Open up your project!
+    1.  Navigate to your local repository (`Repos\my-project\` in our example).
+    2.  You'll find a `project-template.Rproj` file. That's your project file. Rename it appropriately.
+    3.  Open it up and have a look around!
+5.  Make your first commit
+    1.  Now that you've renamed your `.Rproj` file, if you go back into GitKraken, you'll see there's now a change pending.
+    2.  First, you'll want to `Stage` the changes you've made: <https://help.gitkraken.com/gitkraken-client/staging/>
+    3.  Then, you'll `Commit` those changes: <https://help.gitkraken.com/gitkraken-client/commits/>
+    4.  Finally, you'll `Push` your commits: <https://help.gitkraken.com/gitkraken-client/pushing-and-pulling/#push>
+    5.  And you're ready to keep working! (Keep in mind that you'll probably only have one branch and won't need the vast majority of Git complexities. That said, learning the platform is a useful skill unto itself, plus you have the option of using GitHub Pages or Netlify to publish content directly from your repositories.)
+    6.  Now, if you want to work on another machine, you can just clone the repository there, pull any changes, and voila, you're good to go!
+
+::: {.callout-warning collapse="false" appearance="default" icon="true"}
+## Never forget to pull before working!
+
+If you're moving between machines, **always** be sure to commit and push your changes when you're done on one machine and pull any updates on the other before starting to work. Failure to do this can result in conflicts!
+:::
+
+## Bring Your Project into the Lab's OSF Organization
+
+-   [Create a Project from a Template -- OSF Guides](https://help.osf.io/hc/en-us/articles/360019930093-Create-a-Project-from-a-Template#Use-a-public-project-as-a-template)
 
 For consistency within the lab's organization, you'll be creating your project from a template. At this point, you'll want to pre-register your study. Remember, your *project* is a living, breathing thing that can be edited at will. *Registrations* are a little different, which we'll come to shortly.
 
 You can also choose a description for your project at this point and a license. It's important to remember that data itself cannot be copyrighted but a database and the analysis of that data can. The [University of Arizona's Data Repository License Matrix](https://osf.io/f57nz/) provides a few suggestions (though these are specifically for data deposited in ReDATA, they're best practices):
 
-1. Data: [Creative Commons — CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (public domain; no copyright)
-1. Documents & Media: [Creative Commons — Attribution 4.0 International — CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
-1. Code/Software: [MIT License](https://choosealicense.com/licenses/mit/)
+1.  Data: [Creative Commons --- CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (public domain; no copyright)
+2.  Documents & Media: [Creative Commons --- Attribution 4.0 International --- CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+3.  Code/Software: [MIT License](https://choosealicense.com/licenses/mit/)
 
 At this point, you'll also want to have watched the OSF tutorial videos to orient yourself to how the platform works and why we use it.
 
@@ -46,37 +93,37 @@ Make sure to include these folks in the *Contributors* list in your project.
 
 ## IRB Approval (optional, depending on project)
 
-If your project, generally speaking, involves humans other than yourself (a meta-study, for example, or one using existing data does not require this), you will likely need to get approval from the Institutional Research Board (IRB) and have had done the required training through the Human Subjects Protection Program (HSPP). 
+If your project, generally speaking, involves humans other than yourself (a meta-study, for example, or one using existing data does not require this), you will likely need to get approval from the Institutional Research Board (IRB) and have had done the required training through the Human Subjects Protection Program (HSPP).
 
->University of Arizona students/residents who act as PIs are held to the same ethical and regulatory standards as faculty PIs. They are expected to follow all University policies and processes regarding human research.
+> University of Arizona students/residents who act as PIs are held to the same ethical and regulatory standards as faculty PIs. They are expected to follow all University policies and processes regarding human research.
 >
->It is at the College and/or Department’s discretion whether a student or resident can serve as a PI. If a student (whether undergraduate or graduate) or a resident is serving as the PI, then a University advisor must be listed on the Verification of Human Subjects Training Form (VOTF) and have current training. The advisor does not need to be the student’s academic advisor or dissertation/thesis committee member, but must have an academic appointment at the University of Arizona. Advisors must sign off on the human research application and will be copied on all correspondence regarding the student’s human research project.^[[Conducting Human Subjects Research | UArizona Research, Innovation & Impact](https://research.arizona.edu/administration/getting-started/Principal-Investigator-Eligibility/conducting-human-subjects-research)]
+> It is at the College and/or Department's discretion whether a student or resident can serve as a PI. If a student (whether undergraduate or graduate) or a resident is serving as the PI, then a University advisor must be listed on the Verification of Human Subjects Training Form (VOTF) and have current training. The advisor does not need to be the student's academic advisor or dissertation/thesis committee member, but must have an academic appointment at the University of Arizona. Advisors must sign off on the human research application and will be copied on all correspondence regarding the student's human research project.[^project-step-by-step-1]
 
 One fringe benefit of needing to go through the IRB process is, having done this, your pre-registration content is almost entirely completed. Still, you'll need to get IRB approval *prior* to making your plan public.
 
 ## Pre-registration
 
-Pre-registration is, more or less, a transparent plan of action and justification. See [OSF Registries | ADHD and Hyperfocus](https://osf.io/ta92r) for a good example of what this looks like. You don't *have* to have all the answers, all the exact specifics, but you should endeavor to provide the information you *do* have and explain why you can't or won't provide the others. Why pre-register, though?
+Pre-registration is, more or less, a transparent plan of action and justification. See [OSF Registries \| ADHD and Hyperfocus](https://osf.io/ta92r) for a good example of what this looks like. You don't *have* to have all the answers, all the exact specifics, but you should endeavor to provide the information you *do* have and explain why you can't or won't provide the others. Why pre-register, though?
 
->The main goal of preregistering one’s research is to make it easier for readers (and yourself) to distinguish between what the you set out to do (confirmation) and what was discovered along the way (exploration).^[[Preregistration: A Plan, Not a Prison](https://www.cos.io/blog/preregistration-plan-not-prison)]
+> The main goal of preregistering one's research is to make it easier for readers (and yourself) to distinguish between what the you set out to do (confirmation) and what was discovered along the way (exploration).[^project-step-by-step-2]
 
-It also has the benefit of establishing precisely what you intended and expect to find, precluding $p$-hacking^[[P-Hacking – Statistical Bullshit](https://statisticalbullshit.com/2017/07/17/p-hacking/)]. That said, remember that pre-registration is a *plan* and, as such, may become outdated or obsolete when things change unexpectedly. Preferably, if things do change, you should simply create a new pre-registration in the same project and either withdraw the previous one or simply reference the original now out-of-date pre-registration the new one. The time at which you do this is important^[[Preregistration: A Plan, Not a Prison](https://www.cos.io/blog/preregistration-plan-not-prison)].
+It also has the benefit of establishing precisely what you intended and expect to find, precluding $p$-hacking[^project-step-by-step-3]. That said, remember that pre-registration is a *plan* and, as such, may become outdated or obsolete when things change unexpectedly. Preferably, if things do change, you should simply create a new pre-registration in the same project and either withdraw the previous one or simply reference the original now out-of-date pre-registration the new one. The time at which you do this is important[^project-step-by-step-4].
 
 Here's a very important aspect of registering a project:
 
->A registration on OSF creates a frozen, time-stamped version of a project that cannot be edited or deleted. The original project can still be edited, while the registered version cannot. You might create a registration to capture a snapshot of your project at certain points in time – such as right before data collection begins, when you submit a manuscript for peer review, or upon completion of a project.
+> A registration on OSF creates a frozen, time-stamped version of a project that cannot be edited or deleted. The original project can still be edited, while the registered version cannot. You might create a registration to capture a snapshot of your project at certain points in time -- such as right before data collection begins, when you submit a manuscript for peer review, or upon completion of a project.
 
-Technically, you *can* update a pre-registration within a particular set of circumstances^[[Introduction to Updating – OSF Guides](https://help.osf.io/hc/en-us/articles/4414482864663-Introduction-to-Updating-)]. Presume that the research design you're planning on using is the one you *will* use. Registration updates are for situations outside the researcher's control that are necessary to the project's completion. The logistical changes necessitated by COVID-19 would be one example of this. You should also consider creating a pre-data-collection registration *and* a pre-data-analysis registration to capture any changes or alterations you'll be requiring prior to data analysis.
+Technically, you *can* update a pre-registration within a particular set of circumstances[^project-step-by-step-5]. Presume that the research design you're planning on using is the one you *will* use. Registration updates are for situations outside the researcher's control that are necessary to the project's completion. The logistical changes necessitated by COVID-19 would be one example of this. You should also consider creating a pre-data-collection registration *and* a pre-data-analysis registration to capture any changes or alterations you'll be requiring prior to data analysis.
 
 [How To Properly Preregister A Study - Data Colada](http://datacolada.org/64)
 
-+ Choose the right pre-registration template: [Select a Registration Template – OSF Guides](https://help.osf.io/hc/en-us/articles/360019738794-Select-a-Registration-Template) (it is very likely you will choose one of the following)
-  1. [OSF | Qualitative Preregistration Template.docx](https://osf.io/w4ac2/)
-  1. [OSF | Preregistration for Qualitative Research Template.docx](https://osf.io/b6xmd/) (Kern & Skrede Gleditsch, 2017)
-  1. [OSF | Pre-Registration in Social Psychology (van 't Veer & Giner-Sorolla, 2016) Pre-Registration.docx](https://osf.io/ce3hr/)
-  1. [OSF | AsPredicted registration.docx](https://osf.io/fnsb6/)^[This is a good one to choose as it is very open and is what is included in the lab's project template. -RS]
-  1. [OSF | Replication Recipe (Brandt et al., 2013) Pre-Registration.docx](https://osf.io/4jd46/)
-    
+-   Choose the right pre-registration template: [Select a Registration Template -- OSF Guides](https://help.osf.io/hc/en-us/articles/360019738794-Select-a-Registration-Template) (it is very likely you will choose one of the following)
+    1.  [OSF \| Qualitative Preregistration Template.docx](https://osf.io/w4ac2/)
+    2.  [OSF \| Preregistration for Qualitative Research Template.docx](https://osf.io/b6xmd/) (Kern & Skrede Gleditsch, 2017)
+    3.  [OSF \| Pre-Registration in Social Psychology (van 't Veer & Giner-Sorolla, 2016) Pre-Registration.docx](https://osf.io/ce3hr/)
+    4.  [OSF \| AsPredicted registration.docx](https://osf.io/fnsb6/)[^project-step-by-step-6]
+    5.  [OSF \| Replication Recipe (Brandt et al., 2013) Pre-Registration.docx](https://osf.io/4jd46/)
+
 It's understandable that undergraduate researchers, especially, may feel hesitant to pre-register their work given they're still learning not just the content they're researching but *how to* research. This is actually a great reason to go through the open science framework: that willingness to demonstrate growth, transparency, and a dedication to the process can be tremendously impressive.
 
 ## Depositing Data
@@ -84,3 +131,15 @@ It's understandable that undergraduate researchers, especially, may feel hesitan
 Your collected data may be easy to handle, as in the case of a small pilot survey, or it may take up tremendous space, as in the case of videos of interviews, large metadata collections, scraping, et cetera. Using the [ReDATA](#redata) platform requires the inclusion of a [README](https://osf.io/sj8xv/) helps that data to be found. Of course, you should always follow legal requirements for what kinds of information can be made available (this will be spelled out very clearly in the IRB if you are dealing with personally identifiable data).
 
 Regardless, check with your faculty research advisor or the director to see which platform/repository is most appropriate for your particular kind of data.
+
+[^project-step-by-step-1]: [Conducting Human Subjects Research \| UArizona Research, Innovation & Impact](https://research.arizona.edu/administration/getting-started/Principal-Investigator-Eligibility/conducting-human-subjects-research)
+
+[^project-step-by-step-2]: [Preregistration: A Plan, Not a Prison](https://www.cos.io/blog/preregistration-plan-not-prison)
+
+[^project-step-by-step-3]: [P-Hacking -- Statistical Bullshit](https://statisticalbullshit.com/2017/07/17/p-hacking/)
+
+[^project-step-by-step-4]: [Preregistration: A Plan, Not a Prison](https://www.cos.io/blog/preregistration-plan-not-prison)
+
+[^project-step-by-step-5]: [Introduction to Updating -- OSF Guides](https://help.osf.io/hc/en-us/articles/4414482864663-Introduction-to-Updating-)
+
+[^project-step-by-step-6]: This is a good one to choose as it is very open and is what is included in the lab's project template. -RS
