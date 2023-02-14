@@ -16,7 +16,7 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   site-url: https://mavrxlab.github.io/manual/
   repo-url: https://github.com/mavrxlab/manual
-  repo-actions: [edit,issue]
+  repo-actions: [issue] # edit,
 #  downloads: [pdf, epub]
 
 
