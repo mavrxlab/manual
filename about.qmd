@@ -1,17 +1,20 @@
 # About {.unnumbered}
 
-The **M**ixed **A**ugmented **V**i**R**tual e**X**tended (Reality) Laboratory (referred to as the MAVRX Lab, pronounced *mavericks*, and stylized with curly brackets around {VR}) is space in which we drive innovation through alternative reality modalities and research. It came about in early 2021 as an entity, though its physical location had existed for some time. MA{VR}X Lab is intended as a collaborate effort, meant to be interdisciplinary and reside in a place of praxis and innovation.
+The **M**ixed **A**ugmented **V**i**R**tual e**X**tended (Reality) Laboratory (referred to as the MAVRX Lab, pronounced *mavericks*, and stylized with curly brackets around {VR} - (MA**{VR}**X) ) is a space in which we drive innovation through alternative reality modalities[^about-1] and research. It came about in early 2021 as an entity, though its physical location had existed for some time. MA{VR}X Lab is intended as a collaborative effort, meant to be interdisciplinary and reside in a place of praxis[^about-2] and innovation.
 
-It is our goal to apply this to bleeding-edge innovation in alternate reality spaces. Does that just mean virtual reality? Absolutely not. Again, we are *interdisciplinary* and encourage this throughout. 
+[^about-1]: **modality** - noun
+
+    1 a: the quality or state of being modal
+
+    b: a modal quality or attribute : FORM
+
+    Merriam-Webster. (n.d.). Modality. In Merriam-Webster.com dictionary. Retrieved February 17, 2023, from https://www.merriam-webster.com/dictionary/modality
+
+[^about-2]: the process by which a theory, lesson, or skill is enacted, embodied, or realized \[and\] the act of engaging, applying, exercising, realizing, or practicing ideas.
+
+It is our goal to apply this to bleeding-edge innovation in alternate reality spaces. Does that just mean virtual reality? Absolutely not. Again, we are *interdisciplinary* and encourage this throughout.
 
 ## Identity {.unnumbered}
-
-
-The lab's identity is determined by three basic concepts: its mission, vision, and values, but also of our dedication to praxis. Praxis as we refer to it can be defined as:
-
-> the process by which a theory, lesson, or skill is enacted, embodied, or realized \[and\] the act of engaging, applying, exercising, realizing, or practicing ideas[^about-1].
-
-This is present not only in our identity, but in our devotion to the ideals of the College of Applied Science and Technology and of the University of Arizona.
 
 ```{r}
 #| label: banner
@@ -20,6 +23,13 @@ This is present not only in our identity, but in our devotion to the ideals of t
 knitr::include_graphics("images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png")
 ```
 
+The Lab's identity is determined by the primary concepts of mission, values, and vision. These concepts are outlined in more detail below. We also share a fourth concept of dedication to praxis:
+
+> Praxis can be defined as the process by which a theory, lesson, or skill is enacted, embodied, or realized \[and\] the act of engaging, applying, exercising, realizing, or practicing ideas[^about-3].
+
+[^about-3]: [Praxis (process)](https://en.wikipedia.org/wiki/Praxis_(process))
+
+These concepts are present not only in the MA{VR}X Lab's identity, but in our devotion to the ideals of the College of Applied Science and Technology and of the University of Arizona.
 
 ## Mission {.unnumbered}
 
@@ -35,8 +45,6 @@ The MA{VR}X Lab's vision is one of transparency, openness, and optimism. At all 
 
 ## Code of Conduct {.unnumbered}
 
-In addition to the University of Arizona [Student Code of Conduct](https://deanofstudents.arizona.edu/student-rights-responsibilities/student-code-conduct), the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.[^about-2]
+In addition to the University of Arizona [Student Code of Conduct](https://deanofstudents.arizona.edu/student-rights-responsibilities/student-code-conduct), the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.[^about-4]
 
-[^about-1]: [Praxis (process)](https://en.wikipedia.org/wiki/Praxis_(process))
-
-[^about-2]: Adapted from [Lab Code of Conduct --- DIB Lab 1.0 documentation](http://ivory.idyll.org/lab/coc.html).
+[^about-4]: Adapted from [Lab Code of Conduct --- DIB Lab 1.0 documentation](http://ivory.idyll.org/lab/coc.html).
