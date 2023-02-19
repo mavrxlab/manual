@@ -39,14 +39,14 @@
     "href": "about.html#identity",
     "title": "About",
     "section": "Identity",
-    "text": "Identity\n\n\n\n\n\nOfficial MA{VR}X Lab banner.\n\n\n\n\nThe lab’s identity is determined by the primary concepts of mission, values, and vision. These concepts are outlined in more detail below. We also share a fourth concept of dedication to praxis:\nPraxis can be defined as the process by which a theory, lesson, or skill is enacted, embodied, or realized [and] the act of engaging, applying, exercising, realizing, or practicing ideas3.\nThese concepts are present not only in the MA{VR}X lab identity, but in our devotion to the ideals of the College of Applied Science and Technology and of the University of Arizona."
+    "text": "Identity\n\n\n\nOfficial MA{VR}X Lab banner.\n\n\nThe Lab’s identity is determined by these primary concepts. Praxis, Mission, Values, and Vision. These concepts are outlined in more detail below."
   },
   {
     "objectID": "about.html#mission",
     "href": "about.html#mission",
     "title": "About",
     "section": "Mission",
-    "text": "Mission\nThe primary mission of the MA{VR}X Lab is to develop human-focused ideas through technology, transparency, and care, with a focus on extending our reality using technology and evidence-based methodology."
+    "text": "Mission\nThe primary mission of the MA{VR}X Lab is to develop human-focused ideas through technology, transparency, and care, with a focus on extending our reality using technology and evidence-based methodology.\n\nPraxis\nPraxis can be defined as the process by which a theory, lesson, or skill is enacted, embodied, or realized [and] the act of engaging, applying, exercising, realizing, or practicing ideas3.\n\n\nValues\nThe MA{VR}X Lab’s vision is one of transparency, openness, and optimism. At all possible times, we believe knowledge should not just be presented publicly, but developed there as well. We are humans, we make mistakes and we want to make them in public so others may learn. We make those on our way to create great things and help build a better future for everyone.\n\n\nVision\nManifested in the nexus of technology research, evidence-based pedagogy4, and boundary-pushing ideas, the MA{VR}X Lab will act as a space for chances to be taken, brilliance to be realized, and people to come together.\nThese aforementioned concepts are present not only in the MA{VR}X Lab’s identity, but in our dedication and devotion to the ideals of the College of Applied Science and Technology and of the University of Arizona."
   },
   {
     "objectID": "about.html#vision",
@@ -67,7 +67,7 @@
     "href": "about.html#code-of-conduct",
     "title": "About",
     "section": "Code of Conduct",
-    "text": "Code of Conduct\nIn addition to the University of Arizona Student Code of Conduct, the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.4"
+    "text": "Code of Conduct\nIn addition to the University of Arizona Student Code of Conduct, the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.5"
   },
   {
     "objectID": "roles.html#everyone",
@@ -313,5 +313,12 @@
     "title": "Appendix B — FAQ",
     "section": "Office Hours",
     "text": "Office Hours\nThe lab offers “office hours” at physical locations and online."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "## Code of Conduct\nIn addition to the University of Arizona Student Code of Conduct, the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.4"
   }
 ]

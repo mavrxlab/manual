@@ -1,50 +1,65 @@
-# About {.unnumbered}
+# [About]{.underline} {.unnumbered}
+
+------------------------------------------------------------------------
 
 The **M**ixed **A**ugmented **V**i**R**tual e**X**tended (Reality) Laboratory (referred to as the MAVRX Lab, pronounced *mavericks*, and stylized with curly brackets around {VR} - (MA**{VR}**X) ) is a space in which we drive innovation through alternative reality modalities[^about-1] and research. It came about in early 2021 as an entity, though its physical location had existed for some time. MA{VR}X Lab is intended as a collaborative effort, meant to be interdisciplinary and reside in a place of praxis[^about-2] and innovation.
 
-[^about-1]: **modality** - noun
+[^about-1]: **modality** - noun **plural:** modalities
 
-    1 a: the quality or state of being modal
+    **1a:** the quality or state of being [modal](https://www.merriam-webster.com/dictionary/modal)
 
-    b: a modal quality or attribute : FORM
+    **b:** a modal quality or attribute **: [FORM](https://www.merriam-webster.com/dictionary/form)**
 
-    Merriam-Webster. (n.d.). Modality. In Merriam-Webster.com dictionary. Retrieved February 17, 2023, from https://www.merriam-webster.com/dictionary/modality
+    **2:** the classification of logical propositions (see [PROPOSITION sense 1](https://www.merriam-webster.com/dictionary/proposition)) according to their asserting or denying the possibility, impossibility, [contingency](https://www.merriam-webster.com/dictionary/contingency), or necessity of their content
+
+    **3:** one of the main avenues of sensation (such as vision)
+
+    **4:** a usually physical [therapeutic](https://www.merriam-webster.com/dictionary/therapeutic) agency
+
+    Merriam-Webster. (n.d.). Modality. In Merriam-Webster.com dictionary. Retrieved February 19, 2023, from https://www.merriam-webster.com/dictionary/modality
 
 [^about-2]: the process by which a theory, lesson, or skill is enacted, embodied, or realized \[and\] the act of engaging, applying, exercising, realizing, or practicing ideas.
 
 It is our goal to apply this to bleeding-edge innovation in alternate reality spaces. Does that just mean virtual reality? Absolutely not. Again, we are *interdisciplinary* and encourage this throughout.
 
-## Identity {.unnumbered}
+------------------------------------------------------------------------
 
-```{r}
-#| label: banner
-#| column: page-right
-#| fig-cap: "Official MA{VR}X Lab banner."
-knitr::include_graphics("images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png")
-```
+## [Identity]{.underline} {.unnumbered style="border-bottom-width: 0px"}
 
-The Lab's identity is determined by the primary concepts of mission, values, and vision. These concepts are outlined in more detail below. We also share a fourth concept of dedication to praxis:
+![Official MA{VR}X Lab banner.](images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png){.image width="100%"}
 
-> Praxis can be defined as the process by which a theory, lesson, or skill is enacted, embodied, or realized \[and\] the act of engaging, applying, exercising, realizing, or practicing ideas[^about-3].
+The Lab's identity is determined by these primary concepts. Praxis, Mission, Values, and Vision. These concepts are outlined in more detail below.
 
-[^about-3]: [Praxis (process)](https://en.wikipedia.org/wiki/Praxis_(process))
+------------------------------------------------------------------------
 
-These concepts are present not only in the MA{VR}X Lab's identity, but in our devotion to the ideals of the College of Applied Science and Technology and of the University of Arizona.
-
-## Mission {.unnumbered}
+## [Mission]{.underline} {.unnumbered style="border-bottom-width: 0px"}
 
 The primary mission of the MA{VR}X Lab is to develop human-focused ideas through technology, transparency, and care, with a focus on extending our reality using technology and evidence-based methodology.
 
-## Vision {.unnumbered}
+#### Praxis {.unnumbered}
 
-Manifested in the nexus of technology research, evidence-based pedagogy, and boundary-pushing ideas, the MA{VR}X Lab will act as a space for chances to be taken, brilliance to be realized, and people to come together.
+Praxis can be defined as the process by which a theory, lesson, or skill is enacted, embodied, or realized \[and\] the act of engaging, applying, exercising, realizing, or practicing ideas[^about-3].
 
-## Values {.unnumbered}
+[^about-3]: [Praxis (process)](https://en.wikipedia.org/wiki/Praxis_(process))
 
-The MA{VR}X Lab's vision is one of transparency, openness, and optimism. At all possible times, we believe knowledge should be not just presented publicly but developed there, as well. We are humans. We make mistakes and we want to make them in public so others may learn. We make those on our way to create great things and help build a better future for everyone.
+#### Values {.unnumbered}
 
-## Code of Conduct {.unnumbered}
+The MA{VR}X Lab's vision is one of transparency, openness, and optimism. At all possible times, we believe knowledge should not just be presented publicly, but developed there as well. We are humans, we make mistakes and we want to make them in public so others may learn. We make those on our way to create great things and help build a better future for everyone.
 
-In addition to the University of Arizona [Student Code of Conduct](https://deanofstudents.arizona.edu/student-rights-responsibilities/student-code-conduct), the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.[^about-4]
+#### Vision {.unnumbered}
 
-[^about-4]: Adapted from [Lab Code of Conduct --- DIB Lab 1.0 documentation](http://ivory.idyll.org/lab/coc.html).
+Manifested in the nexus of technology research, evidence-based pedagogy[^about-4], and boundary-pushing ideas, the MA{VR}X Lab will act as a space for chances to be taken, brilliance to be realized, and people to come together.
+
+[^about-4]: **pedagogy** - noun **:** the art, science, or profession of teaching
+
+    Merriam-Webster. (n.d.). Pedagogy. In Merriam-Webster.com dictionary. Retrieved February 19, 2023, from https://www.merriam-webster.com/dictionary/pedagogy
+
+These aforementioned concepts are present not only in the MA{VR}X Lab's identity, but in our dedication and devotion to the ideals of the College of Applied Science and Technology and of the University of Arizona.
+
+------------------------------------------------------------------------
+
+## [Code of Conduct]{.underline} {.unnumbered style="border-bottom-width: 0px"}
+
+In addition to the University of Arizona [Student Code of Conduct](https://deanofstudents.arizona.edu/student-rights-responsibilities/student-code-conduct), the MA{VR} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.[^about-5]
+
+[^about-5]: Adapted from [Lab Code of Conduct --- DIB Lab 1.0 documentation](http://ivory.idyll.org/lab/coc.html).
