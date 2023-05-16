@@ -12,11 +12,13 @@ book:
   page-footer:
     left: |
       <a href="https://mavrxlab.org/">MA{VR}X Lab</a>
+    center: |
+      This manual is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   site-url: https://mavrxlab.github.io/manual/
   repo-url: https://github.com/mavrxlab/manual
-  repo-actions: [edit,issue]
+  repo-actions: [issue] # edit,
 #  downloads: [pdf, epub]
 
 

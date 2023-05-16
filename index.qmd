@@ -17,15 +17,9 @@ THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book sho
 
 ## Using this book {.unnumbered}
 
-```{r}
-#| label: cc-license
-#| column: margin
-#| fig-link: http://creativecommons.org/licenses/by-nc-sa/4.0/
-#| fig-cap: "CC BY-NC-SA 4.0"
-knitr::include_graphics('images/by-nc-sa.png', dpi = NA)
-```
-
 This manual is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). We encourage you to use [the **OSF** project to cite this particular document](https://osf.io/upa25/) [@straightMAVRXLabManual2021].
+
+[![CC BY-NC-SA 4.0](images/by-nc-sa.png){.image fig-align="center" width="45%"}](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Structure {.unnumbered}
 
